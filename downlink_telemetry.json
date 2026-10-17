@@ -1,25 +1,1658 @@
 {
   "satellite_id": "CHIMNEY-CENSUS-CUBESAT-01",
   "processor": "Raspberry Pi 5 Edge AI Payload (ONNX Opset 18)",
-  "total_alerts": 1,
-  "generated_at": "2026-10-16T22:10:54.170315+00:00",
+  "total_alerts": 72,
+  "generated_at": "2026-10-17T01:13:45.422494+00:00",
   "alerts": [
     {
       "event_id": "SAT-ALERT-0001",
-      "timestamp_utc": "2026-10-16T22:10:54.163829+00:00",
-      "frame_id": 0,
+      "timestamp_utc": "2026-10-17T01:13:34.700185+00:00",
+      "frame_id": 2,
       "kiln_id": 1,
       "class": "Zigzag",
       "confidence": 0.027,
       "compliance_flag": "COMPLIANT_ZIGZAG",
       "priority": 3,
       "geographic_coords": {
-        "latitude": 21.05961,
-        "longitude": 72.90171
+        "latitude": 21.07492,
+        "longitude": 72.90176
       },
       "swath_coords": {
-        "x": 70.1,
-        "y": 58.9
+        "x": 261.5,
+        "y": 59.5
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0002",
+      "timestamp_utc": "2026-10-17T01:13:34.700287+00:00",
+      "frame_id": 2,
+      "kiln_id": 2,
+      "class": "Zigzag",
+      "confidence": 0.026,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.08175,
+        "longitude": 72.90243
+      },
+      "swath_coords": {
+        "x": 346.8,
+        "y": 67.9
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0003",
+      "timestamp_utc": "2026-10-17T01:13:34.770231+00:00",
+      "frame_id": 3,
+      "kiln_id": 3,
+      "class": "Zigzag",
+      "confidence": 0.049,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.09138,
+        "longitude": 72.90267
+      },
+      "swath_coords": {
+        "x": 467.3,
+        "y": 70.9
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0004",
+      "timestamp_utc": "2026-10-17T01:13:34.770397+00:00",
+      "frame_id": 3,
+      "kiln_id": 4,
+      "class": "Zigzag",
+      "confidence": 0.029,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.07575,
+        "longitude": 72.90939
+      },
+      "swath_coords": {
+        "x": 271.9,
+        "y": 154.9
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0007",
+      "timestamp_utc": "2026-10-17T01:13:34.841491+00:00",
+      "frame_id": 4,
+      "kiln_id": 7,
+      "class": "Zigzag",
+      "confidence": 0.038,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.09103,
+        "longitude": 72.90933
+      },
+      "swath_coords": {
+        "x": 462.8,
+        "y": 154.1
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0006",
+      "timestamp_utc": "2026-10-17T01:13:34.841625+00:00",
+      "frame_id": 4,
+      "kiln_id": 6,
+      "class": "CFCBK",
+      "confidence": 0.029,
+      "compliance_flag": "CRITICAL_VIOLATION",
+      "priority": 1,
+      "geographic_coords": {
+        "latitude": 21.0605,
+        "longitude": 72.90215
+      },
+      "swath_coords": {
+        "x": 81.2,
+        "y": 64.4
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0005",
+      "timestamp_utc": "2026-10-17T01:13:34.841741+00:00",
+      "frame_id": 4,
+      "kiln_id": 5,
+      "class": "Zigzag",
+      "confidence": 0.028,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.09282,
+        "longitude": 72.91689
+      },
+      "swath_coords": {
+        "x": 485.3,
+        "y": 248.6
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0010",
+      "timestamp_utc": "2026-10-17T01:13:35.047328+00:00",
+      "frame_id": 7,
+      "kiln_id": 10,
+      "class": "Zigzag",
+      "confidence": 0.035,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.08687,
+        "longitude": 72.90234
+      },
+      "swath_coords": {
+        "x": 410.9,
+        "y": 66.7
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0013",
+      "timestamp_utc": "2026-10-17T01:13:35.114277+00:00",
+      "frame_id": 8,
+      "kiln_id": 13,
+      "class": "Zigzag",
+      "confidence": 0.042,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.0956,
+        "longitude": 72.91012
+      },
+      "swath_coords": {
+        "x": 520.0,
+        "y": 164.0
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0014",
+      "timestamp_utc": "2026-10-17T01:13:35.184009+00:00",
+      "frame_id": 9,
+      "kiln_id": 14,
+      "class": "Zigzag",
+      "confidence": 0.042,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.09715,
+        "longitude": 72.9027
+      },
+      "swath_coords": {
+        "x": 539.3,
+        "y": 71.3
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0008",
+      "timestamp_utc": "2026-10-17T01:13:35.392316+00:00",
+      "frame_id": 12,
+      "kiln_id": 8,
+      "class": "Zigzag",
+      "confidence": 0.03,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.07705,
+        "longitude": 72.90476
+      },
+      "swath_coords": {
+        "x": 288.1,
+        "y": 97.0
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0016",
+      "timestamp_utc": "2026-10-17T01:13:35.462971+00:00",
+      "frame_id": 13,
+      "kiln_id": 16,
+      "class": "Zigzag",
+      "confidence": 0.049,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.10066,
+        "longitude": 72.9099
+      },
+      "swath_coords": {
+        "x": 583.3,
+        "y": 161.3
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0017",
+      "timestamp_utc": "2026-10-17T01:13:35.537731+00:00",
+      "frame_id": 14,
+      "kiln_id": 17,
+      "class": "Zigzag",
+      "confidence": 0.032,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.10089,
+        "longitude": 72.91785
+      },
+      "swath_coords": {
+        "x": 586.2,
+        "y": 260.6
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0018",
+      "timestamp_utc": "2026-10-17T01:13:35.609525+00:00",
+      "frame_id": 15,
+      "kiln_id": 18,
+      "class": "Zigzag",
+      "confidence": 0.028,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.10348,
+        "longitude": 72.90235
+      },
+      "swath_coords": {
+        "x": 618.5,
+        "y": 66.8
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0019",
+      "timestamp_utc": "2026-10-17T01:13:35.761496+00:00",
+      "frame_id": 17,
+      "kiln_id": 19,
+      "class": "Zigzag",
+      "confidence": 0.033,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.10517,
+        "longitude": 72.91763
+      },
+      "swath_coords": {
+        "x": 639.7,
+        "y": 257.9
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0020",
+      "timestamp_utc": "2026-10-17T01:13:35.833049+00:00",
+      "frame_id": 18,
+      "kiln_id": 20,
+      "class": "Zigzag",
+      "confidence": 0.052,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.10585,
+        "longitude": 72.91008
+      },
+      "swath_coords": {
+        "x": 648.1,
+        "y": 163.6
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0021",
+      "timestamp_utc": "2026-10-17T01:13:36.135294+00:00",
+      "frame_id": 22,
+      "kiln_id": 21,
+      "class": "Zigzag",
+      "confidence": 0.08,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.10959,
+        "longitude": 72.90203
+      },
+      "swath_coords": {
+        "x": 694.9,
+        "y": 62.9
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0024",
+      "timestamp_utc": "2026-10-17T01:13:36.291700+00:00",
+      "frame_id": 24,
+      "kiln_id": 24,
+      "class": "Zigzag",
+      "confidence": 0.046,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.11425,
+        "longitude": 72.92009
+      },
+      "swath_coords": {
+        "x": 753.1,
+        "y": 288.7
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0023",
+      "timestamp_utc": "2026-10-17T01:13:36.291759+00:00",
+      "frame_id": 24,
+      "kiln_id": 23,
+      "class": "Zigzag",
+      "confidence": 0.041,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.1116,
+        "longitude": 72.91029
+      },
+      "swath_coords": {
+        "x": 720.0,
+        "y": 166.2
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0022",
+      "timestamp_utc": "2026-10-17T01:13:36.368691+00:00",
+      "frame_id": 25,
+      "kiln_id": 22,
+      "class": "Zigzag",
+      "confidence": 0.065,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.11128,
+        "longitude": 72.91733
+      },
+      "swath_coords": {
+        "x": 716.0,
+        "y": 254.2
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0015",
+      "timestamp_utc": "2026-10-17T01:13:36.759967+00:00",
+      "frame_id": 30,
+      "kiln_id": 15,
+      "class": "FCBK",
+      "confidence": 0.033,
+      "compliance_flag": "CRITICAL_VIOLATION",
+      "priority": 1,
+      "geographic_coords": {
+        "latitude": 21.08521,
+        "longitude": 72.91219
+      },
+      "swath_coords": {
+        "x": 390.1,
+        "y": 189.9
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0028",
+      "timestamp_utc": "2026-10-17T01:13:36.841163+00:00",
+      "frame_id": 31,
+      "kiln_id": 28,
+      "class": "CFCBK",
+      "confidence": 0.034,
+      "compliance_flag": "CRITICAL_VIOLATION",
+      "priority": 1,
+      "geographic_coords": {
+        "latitude": 21.11883,
+        "longitude": 72.9216
+      },
+      "swath_coords": {
+        "x": 810.3,
+        "y": 307.5
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0026",
+      "timestamp_utc": "2026-10-17T01:13:36.990479+00:00",
+      "frame_id": 33,
+      "kiln_id": 26,
+      "class": "Zigzag",
+      "confidence": 0.054,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.11484,
+        "longitude": 72.90172
+      },
+      "swath_coords": {
+        "x": 760.5,
+        "y": 59.0
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0027",
+      "timestamp_utc": "2026-10-17T01:13:37.148132+00:00",
+      "frame_id": 35,
+      "kiln_id": 27,
+      "class": "Zigzag",
+      "confidence": 0.046,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.11641,
+        "longitude": 72.9099
+      },
+      "swath_coords": {
+        "x": 780.1,
+        "y": 161.2
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0030",
+      "timestamp_utc": "2026-10-17T01:13:37.928555+00:00",
+      "frame_id": 45,
+      "kiln_id": 30,
+      "class": "Zigzag",
+      "confidence": 0.039,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.1193,
+        "longitude": 72.91778
+      },
+      "swath_coords": {
+        "x": 816.2,
+        "y": 259.7
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0032",
+      "timestamp_utc": "2026-10-17T01:13:38.252571+00:00",
+      "frame_id": 49,
+      "kiln_id": 32,
+      "class": "Zigzag",
+      "confidence": 0.027,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.12002,
+        "longitude": 72.90307
+      },
+      "swath_coords": {
+        "x": 825.3,
+        "y": 75.9
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0029",
+      "timestamp_utc": "2026-10-17T01:13:38.556183+00:00",
+      "frame_id": 53,
+      "kiln_id": 29,
+      "class": "CFCBK",
+      "confidence": 0.045,
+      "compliance_flag": "CRITICAL_VIOLATION",
+      "priority": 1,
+      "geographic_coords": {
+        "latitude": 21.12496,
+        "longitude": 72.90363
+      },
+      "swath_coords": {
+        "x": 887.0,
+        "y": 82.9
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0034",
+      "timestamp_utc": "2026-10-17T01:13:38.556268+00:00",
+      "frame_id": 53,
+      "kiln_id": 34,
+      "class": "CFCBK",
+      "confidence": 0.036,
+      "compliance_flag": "CRITICAL_VIOLATION",
+      "priority": 1,
+      "geographic_coords": {
+        "latitude": 21.13715,
+        "longitude": 72.91683
+      },
+      "swath_coords": {
+        "x": 1039.4,
+        "y": 247.9
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0036",
+      "timestamp_utc": "2026-10-17T01:13:39.432288+00:00",
+      "frame_id": 65,
+      "kiln_id": 36,
+      "class": "CFCBK",
+      "confidence": 0.039,
+      "compliance_flag": "CRITICAL_VIOLATION",
+      "priority": 1,
+      "geographic_coords": {
+        "latitude": 21.1533,
+        "longitude": 72.90046
+      },
+      "swath_coords": {
+        "x": 1241.2,
+        "y": 43.2
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0037",
+      "timestamp_utc": "2026-10-17T01:13:39.503068+00:00",
+      "frame_id": 66,
+      "kiln_id": 37,
+      "class": "CFCBK",
+      "confidence": 0.028,
+      "compliance_flag": "CRITICAL_VIOLATION",
+      "priority": 1,
+      "geographic_coords": {
+        "latitude": 21.14808,
+        "longitude": 72.90235
+      },
+      "swath_coords": {
+        "x": 1176.0,
+        "y": 66.9
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0035",
+      "timestamp_utc": "2026-10-17T01:13:39.845223+00:00",
+      "frame_id": 71,
+      "kiln_id": 35,
+      "class": "Zigzag",
+      "confidence": 0.025,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.14071,
+        "longitude": 72.90327
+      },
+      "swath_coords": {
+        "x": 1083.9,
+        "y": 78.4
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0043",
+      "timestamp_utc": "2026-10-17T01:13:39.973361+00:00",
+      "frame_id": 73,
+      "kiln_id": 43,
+      "class": "CFCBK",
+      "confidence": 0.04,
+      "compliance_flag": "CRITICAL_VIOLATION",
+      "priority": 1,
+      "geographic_coords": {
+        "latitude": 21.1421,
+        "longitude": 72.91713
+      },
+      "swath_coords": {
+        "x": 1101.2,
+        "y": 251.7
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0044",
+      "timestamp_utc": "2026-10-17T01:13:39.973440+00:00",
+      "frame_id": 73,
+      "kiln_id": 44,
+      "class": "CFCBK",
+      "confidence": 0.034,
+      "compliance_flag": "CRITICAL_VIOLATION",
+      "priority": 1,
+      "geographic_coords": {
+        "latitude": 21.15781,
+        "longitude": 72.90057
+      },
+      "swath_coords": {
+        "x": 1297.7,
+        "y": 44.6
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0038",
+      "timestamp_utc": "2026-10-17T01:13:40.099271+00:00",
+      "frame_id": 75,
+      "kiln_id": 38,
+      "class": "CFCBK",
+      "confidence": 0.041,
+      "compliance_flag": "CRITICAL_VIOLATION",
+      "priority": 1,
+      "geographic_coords": {
+        "latitude": 21.13117,
+        "longitude": 72.90382
+      },
+      "swath_coords": {
+        "x": 964.6,
+        "y": 85.3
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0040",
+      "timestamp_utc": "2026-10-17T01:13:40.158305+00:00",
+      "frame_id": 76,
+      "kiln_id": 40,
+      "class": "CFCBK",
+      "confidence": 0.036,
+      "compliance_flag": "CRITICAL_VIOLATION",
+      "priority": 1,
+      "geographic_coords": {
+        "latitude": 21.15019,
+        "longitude": 72.90631
+      },
+      "swath_coords": {
+        "x": 1202.4,
+        "y": 116.3
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0045",
+      "timestamp_utc": "2026-10-17T01:13:40.651436+00:00",
+      "frame_id": 84,
+      "kiln_id": 45,
+      "class": "CFCBK",
+      "confidence": 0.03,
+      "compliance_flag": "CRITICAL_VIOLATION",
+      "priority": 1,
+      "geographic_coords": {
+        "latitude": 21.16447,
+        "longitude": 72.89921
+      },
+      "swath_coords": {
+        "x": 1380.8,
+        "y": 27.6
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0046",
+      "timestamp_utc": "2026-10-17T01:13:41.175729+00:00",
+      "frame_id": 92,
+      "kiln_id": 46,
+      "class": "Zigzag",
+      "confidence": 0.028,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.16988,
+        "longitude": 72.90965
+      },
+      "swath_coords": {
+        "x": 1448.5,
+        "y": 158.1
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0047",
+      "timestamp_utc": "2026-10-17T01:13:41.562670+00:00",
+      "frame_id": 98,
+      "kiln_id": 47,
+      "class": "CFCBK",
+      "confidence": 0.033,
+      "compliance_flag": "CRITICAL_VIOLATION",
+      "priority": 1,
+      "geographic_coords": {
+        "latitude": 21.17949,
+        "longitude": 72.91386
+      },
+      "swath_coords": {
+        "x": 1568.6,
+        "y": 210.8
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0053",
+      "timestamp_utc": "2026-10-17T01:13:41.562835+00:00",
+      "frame_id": 98,
+      "kiln_id": 53,
+      "class": "Zigzag",
+      "confidence": 0.032,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.18325,
+        "longitude": 72.9018
+      },
+      "swath_coords": {
+        "x": 1615.6,
+        "y": 60.0
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0054",
+      "timestamp_utc": "2026-10-17T01:13:41.624752+00:00",
+      "frame_id": 99,
+      "kiln_id": 54,
+      "class": "Zigzag",
+      "confidence": 0.027,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.18189,
+        "longitude": 72.91926
+      },
+      "swath_coords": {
+        "x": 1598.6,
+        "y": 278.2
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0048",
+      "timestamp_utc": "2026-10-17T01:13:41.828172+00:00",
+      "frame_id": 102,
+      "kiln_id": 48,
+      "class": "Zigzag",
+      "confidence": 0.029,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.17176,
+        "longitude": 72.90186
+      },
+      "swath_coords": {
+        "x": 1472.0,
+        "y": 60.8
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0060",
+      "timestamp_utc": "2026-10-17T01:13:42.103999+00:00",
+      "frame_id": 106,
+      "kiln_id": 60,
+      "class": "CFCBK",
+      "confidence": 0.027,
+      "compliance_flag": "CRITICAL_VIOLATION",
+      "priority": 1,
+      "geographic_coords": {
+        "latitude": 21.19458,
+        "longitude": 72.90578
+      },
+      "swath_coords": {
+        "x": 1757.3,
+        "y": 109.7
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0061",
+      "timestamp_utc": "2026-10-17T01:13:42.240366+00:00",
+      "frame_id": 108,
+      "kiln_id": 61,
+      "class": "Zigzag",
+      "confidence": 0.026,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.19189,
+        "longitude": 72.90968
+      },
+      "swath_coords": {
+        "x": 1723.6,
+        "y": 158.5
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0063",
+      "timestamp_utc": "2026-10-17T01:13:42.313313+00:00",
+      "frame_id": 109,
+      "kiln_id": 63,
+      "class": "CFCBK",
+      "confidence": 0.035,
+      "compliance_flag": "CRITICAL_VIOLATION",
+      "priority": 1,
+      "geographic_coords": {
+        "latitude": 21.19813,
+        "longitude": 72.90793
+      },
+      "swath_coords": {
+        "x": 1801.6,
+        "y": 136.6
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0056",
+      "timestamp_utc": "2026-10-17T01:13:42.313411+00:00",
+      "frame_id": 109,
+      "kiln_id": 56,
+      "class": "CFCBK",
+      "confidence": 0.029,
+      "compliance_flag": "CRITICAL_VIOLATION",
+      "priority": 1,
+      "geographic_coords": {
+        "latitude": 21.1833,
+        "longitude": 72.91144
+      },
+      "swath_coords": {
+        "x": 1616.3,
+        "y": 180.5
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0062",
+      "timestamp_utc": "2026-10-17T01:13:42.313660+00:00",
+      "frame_id": 109,
+      "kiln_id": 62,
+      "class": "Zigzag",
+      "confidence": 0.027,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.1914,
+        "longitude": 72.91961
+      },
+      "swath_coords": {
+        "x": 1717.5,
+        "y": 282.6
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0050",
+      "timestamp_utc": "2026-10-17T01:13:42.313726+00:00",
+      "frame_id": 109,
+      "kiln_id": 50,
+      "class": "Zigzag",
+      "confidence": 0.026,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.17881,
+        "longitude": 72.90185
+      },
+      "swath_coords": {
+        "x": 1560.2,
+        "y": 60.7
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0057",
+      "timestamp_utc": "2026-10-17T01:13:42.454981+00:00",
+      "frame_id": 111,
+      "kiln_id": 57,
+      "class": "Zigzag",
+      "confidence": 0.03,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.18865,
+        "longitude": 72.90207
+      },
+      "swath_coords": {
+        "x": 1683.1,
+        "y": 63.4
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0064",
+      "timestamp_utc": "2026-10-17T01:13:42.455056+00:00",
+      "frame_id": 111,
+      "kiln_id": 64,
+      "class": "Zigzag",
+      "confidence": 0.028,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.19522,
+        "longitude": 72.9017
+      },
+      "swath_coords": {
+        "x": 1765.3,
+        "y": 58.7
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0059",
+      "timestamp_utc": "2026-10-17T01:13:42.455206+00:00",
+      "frame_id": 111,
+      "kiln_id": 59,
+      "class": "CFCBK",
+      "confidence": 0.027,
+      "compliance_flag": "CRITICAL_VIOLATION",
+      "priority": 1,
+      "geographic_coords": {
+        "latitude": 21.18737,
+        "longitude": 72.91311
+      },
+      "swath_coords": {
+        "x": 1667.1,
+        "y": 201.4
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0058",
+      "timestamp_utc": "2026-10-17T01:13:42.528517+00:00",
+      "frame_id": 112,
+      "kiln_id": 58,
+      "class": "CFCBK",
+      "confidence": 0.029,
+      "compliance_flag": "CRITICAL_VIOLATION",
+      "priority": 1,
+      "geographic_coords": {
+        "latitude": 21.18762,
+        "longitude": 72.90663
+      },
+      "swath_coords": {
+        "x": 1670.2,
+        "y": 120.4
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0065",
+      "timestamp_utc": "2026-10-17T01:13:42.592978+00:00",
+      "frame_id": 113,
+      "kiln_id": 65,
+      "class": "Zigzag",
+      "confidence": 0.026,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.17465,
+        "longitude": 72.90984
+      },
+      "swath_coords": {
+        "x": 1508.1,
+        "y": 160.4
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0067",
+      "timestamp_utc": "2026-10-17T01:13:42.911379+00:00",
+      "frame_id": 117,
+      "kiln_id": 67,
+      "class": "CFCBK",
+      "confidence": 0.026,
+      "compliance_flag": "CRITICAL_VIOLATION",
+      "priority": 1,
+      "geographic_coords": {
+        "latitude": 21.19767,
+        "longitude": 72.91984
+      },
+      "swath_coords": {
+        "x": 1795.9,
+        "y": 285.5
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0069",
+      "timestamp_utc": "2026-10-17T01:13:43.216591+00:00",
+      "frame_id": 121,
+      "kiln_id": 69,
+      "class": "Zigzag",
+      "confidence": 0.027,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.20432,
+        "longitude": 72.90941
+      },
+      "swath_coords": {
+        "x": 1879.0,
+        "y": 155.1
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0070",
+      "timestamp_utc": "2026-10-17T01:13:43.291146+00:00",
+      "frame_id": 122,
+      "kiln_id": 70,
+      "class": "Zigzag",
+      "confidence": 0.034,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.20584,
+        "longitude": 72.91752
+      },
+      "swath_coords": {
+        "x": 1898.0,
+        "y": 256.5
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0072",
+      "timestamp_utc": "2026-10-17T01:13:43.569067+00:00",
+      "frame_id": 126,
+      "kiln_id": 72,
+      "class": "Zigzag",
+      "confidence": 0.06,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.20988,
+        "longitude": 72.91026
+      },
+      "swath_coords": {
+        "x": 1948.6,
+        "y": 165.7
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0073",
+      "timestamp_utc": "2026-10-17T01:13:43.569341+00:00",
+      "frame_id": 126,
+      "kiln_id": 73,
+      "class": "Zigzag",
+      "confidence": 0.03,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.20163,
+        "longitude": 72.91123
+      },
+      "swath_coords": {
+        "x": 1845.4,
+        "y": 177.9
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0068",
+      "timestamp_utc": "2026-10-17T01:13:43.569395+00:00",
+      "frame_id": 126,
+      "kiln_id": 68,
+      "class": "Zigzag",
+      "confidence": 0.029,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.20131,
+        "longitude": 72.91899
+      },
+      "swath_coords": {
+        "x": 1841.4,
+        "y": 274.9
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0066",
+      "timestamp_utc": "2026-10-17T01:13:43.569518+00:00",
+      "frame_id": 126,
+      "kiln_id": 66,
+      "class": "Zigzag",
+      "confidence": 0.026,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.19411,
+        "longitude": 72.91288
+      },
+      "swath_coords": {
+        "x": 1751.4,
+        "y": 198.5
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0074",
+      "timestamp_utc": "2026-10-17T01:13:43.730969+00:00",
+      "frame_id": 128,
+      "kiln_id": 74,
+      "class": "Zigzag",
+      "confidence": 0.034,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.21156,
+        "longitude": 72.91793
+      },
+      "swath_coords": {
+        "x": 1969.5,
+        "y": 261.6
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0071",
+      "timestamp_utc": "2026-10-17T01:13:43.731320+00:00",
+      "frame_id": 128,
+      "kiln_id": 71,
+      "class": "Zigzag",
+      "confidence": 0.029,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.18873,
+        "longitude": 72.91884
+      },
+      "swath_coords": {
+        "x": 1684.1,
+        "y": 273.0
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0077",
+      "timestamp_utc": "2026-10-17T01:13:44.303170+00:00",
+      "frame_id": 134,
+      "kiln_id": 77,
+      "class": "Zigzag",
+      "confidence": 0.028,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.19445,
+        "longitude": 72.90194
+      },
+      "swath_coords": {
+        "x": 1755.7,
+        "y": 61.7
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0078",
+      "timestamp_utc": "2026-10-17T01:13:44.381632+00:00",
+      "frame_id": 135,
+      "kiln_id": 78,
+      "class": "Zigzag",
+      "confidence": 0.033,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.21812,
+        "longitude": 72.91779
+      },
+      "swath_coords": {
+        "x": 2051.6,
+        "y": 259.8
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0082",
+      "timestamp_utc": "2026-10-17T01:13:44.596501+00:00",
+      "frame_id": 138,
+      "kiln_id": 82,
+      "class": "Zigzag",
+      "confidence": 0.04,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.22158,
+        "longitude": 72.91023
+      },
+      "swath_coords": {
+        "x": 2094.8,
+        "y": 165.4
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0079",
+      "timestamp_utc": "2026-10-17T01:13:44.596793+00:00",
+      "frame_id": 138,
+      "kiln_id": 79,
+      "class": "Zigzag",
+      "confidence": 0.031,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.21527,
+        "longitude": 72.91174
+      },
+      "swath_coords": {
+        "x": 2015.9,
+        "y": 184.3
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0083",
+      "timestamp_utc": "2026-10-17T01:13:44.677787+00:00",
+      "frame_id": 139,
+      "kiln_id": 83,
+      "class": "Zigzag",
+      "confidence": 0.029,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.19811,
+        "longitude": 72.91035
+      },
+      "swath_coords": {
+        "x": 1801.3,
+        "y": 166.9
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0080",
+      "timestamp_utc": "2026-10-17T01:13:44.677912+00:00",
+      "frame_id": 139,
+      "kiln_id": 80,
+      "class": "CFCBK",
+      "confidence": 0.027,
+      "compliance_flag": "CRITICAL_VIOLATION",
+      "priority": 1,
+      "geographic_coords": {
+        "latitude": 21.20289,
+        "longitude": 72.90159
+      },
+      "swath_coords": {
+        "x": 1861.1,
+        "y": 57.4
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0086",
+      "timestamp_utc": "2026-10-17T01:13:45.033669+00:00",
+      "frame_id": 144,
+      "kiln_id": 86,
+      "class": "Zigzag",
+      "confidence": 0.043,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.22776,
+        "longitude": 72.91894
+      },
+      "swath_coords": {
+        "x": 2172.1,
+        "y": 274.3
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0085",
+      "timestamp_utc": "2026-10-17T01:13:45.033851+00:00",
+      "frame_id": 144,
+      "kiln_id": 85,
+      "class": "Zigzag",
+      "confidence": 0.033,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.22704,
+        "longitude": 72.90978
+      },
+      "swath_coords": {
+        "x": 2163.1,
+        "y": 159.7
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0084",
+      "timestamp_utc": "2026-10-17T01:13:45.113839+00:00",
+      "frame_id": 145,
+      "kiln_id": 84,
+      "class": "Zigzag",
+      "confidence": 0.035,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.22326,
+        "longitude": 72.91767
+      },
+      "swath_coords": {
+        "x": 2115.7,
+        "y": 258.4
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0088",
+      "timestamp_utc": "2026-10-17T01:13:45.406466+00:00",
+      "frame_id": 149,
+      "kiln_id": 88,
+      "class": "Zigzag",
+      "confidence": 0.04,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.23183,
+        "longitude": 72.9167
+      },
+      "swath_coords": {
+        "x": 2222.9,
+        "y": 246.2
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    },
+    {
+      "event_id": "SAT-ALERT-0087",
+      "timestamp_utc": "2026-10-17T01:13:45.406811+00:00",
+      "frame_id": 149,
+      "kiln_id": 87,
+      "class": "Zigzag",
+      "confidence": 0.031,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.23189,
+        "longitude": 72.91023
+      },
+      "swath_coords": {
+        "x": 2223.7,
+        "y": 165.4
       },
       "telemetry": {
         "altitude_km": 504.8,
