@@ -88,3 +88,22 @@ def test_telemetry_json_schema():
         assert "confidence" in first
         assert "compliance_flag" in first
         assert "telemetry" in first
+
+
+def test_periodic_camera_edge():
+    from deploy.raspberry_pi.raspberry_pi_camera_edge import RaspberryPiPeriodicCameraEdge
+
+    engine = RaspberryPiPeriodicCameraEdge(
+        model_path="weights/edge/best.onnx",
+        camera_source="mock",
+        interval_seconds=1.0,
+        output_dir="outputs/camera_captures",
+        output_telemetry="outputs/reports/downlink_telemetry.json",
+        output_csv="outputs/camera_detections.csv",
+    )
+    # Process single test capture
+    dummy_frame = np.zeros((256, 256, 3), dtype=np.uint8)
+    annotated, alerts = engine.process_capture(dummy_frame, frame_id=99)
+    assert annotated.shape == (256, 256, 3), "Annotated frame must match input dimensions"
+    assert isinstance(alerts, list), "Alerts must be a list"
+    assert engine.output_csv.exists(), "Camera detections CSV must exist"

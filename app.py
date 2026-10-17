@@ -803,7 +803,53 @@ with tabs[1]:
                 ])
                 st.dataframe(df_alerts, width='stretch', hide_index=True)
         else:
-            st.info("Run `raspberry_pi_satellite_edge.py` to stream live telemetry packets.")
+            st.info("Run `raspberry_pi_satellite_edge.py` or `raspberry_pi_camera_edge.py` to stream live telemetry packets.")
+
+    # ----------------- LIVE RASPBERRY PI CAMERA MODULE (5-10s Interval) -----------------
+    st.markdown("---")
+    st.markdown('<div class="section-title"><span>📸</span> Raspberry Pi Camera Module & Periodic Sensor Lab (5–10s Interval)</div>', unsafe_allow_html=True)
+    st.markdown("Hardware interface for Picamera2 / CSI / V4L2 camera sensors capturing every 5 to 10 seconds with onboard low-complexity ONNX inference.")
+
+    cam_col_img, cam_col_ctrl = st.columns([3, 2], gap="large")
+
+    with cam_col_img:
+        st.markdown("##### Latest Camera Module Detection")
+        latest_cam_path = Path("outputs/camera_captures/latest_detection.jpg")
+        if latest_cam_path.exists():
+            st.image(str(latest_cam_path), caption="📸 Real-Time Frame from Raspberry Pi Camera (Annotated with Rotated OBB)", width='stretch')
+        else:
+            st.info("No camera capture yet. Click 'Trigger Camera Capture' or run `raspberry_pi_camera_edge.py`.")
+
+    with cam_col_ctrl:
+        st.markdown("##### Camera Hardware Controls")
+        interval_val = st.slider("Sampling Interval (seconds):", min_value=3.0, max_value=30.0, value=5.0, step=1.0, help="Periodic sleep interval between camera module frame acquisitions.")
+        
+        col_cbtn1, col_cbtn2 = st.columns(2)
+        with col_cbtn1:
+            if st.button("📸 Trigger Single Capture", use_container_width=True):
+                from deploy.raspberry_pi.raspberry_pi_camera_edge import RaspberryPiPeriodicCameraEdge
+                cam_edge = RaspberryPiPeriodicCameraEdge(
+                    model_path="weights/edge/best.onnx",
+                    camera_source="mock",
+                    interval_seconds=interval_val,
+                )
+                frame = cam_edge.camera.capture_frame()
+                if frame is not None:
+                    ann, alts = cam_edge.process_capture(frame, frame_id=int(time.time()) % 1000)
+                    cv2.imwrite("outputs/camera_captures/latest_detection.jpg", ann)
+                    cam_edge.save_telemetry_packet()
+                    st.success(f"Acquired frame! Found {len(alts)} kilns.")
+                    st.rerun()
+
+        with col_cbtn2:
+            st.code("python deploy/raspberry_pi/raspberry_pi_camera_edge.py --interval 5.0", language="bash")
+
+        # Camera Detections CSV Preview
+        cam_csv_path = Path("outputs/camera_detections.csv")
+        if cam_csv_path.exists():
+            df_cam = pd.read_csv(cam_csv_path)
+            st.markdown(f"**Logged Captures ({len(df_cam)} detections)**:")
+            st.dataframe(df_cam[["capture_id", "class", "score", "compliance", "area_m2", "angle_deg"]].tail(6), width='stretch', hide_index=True)
 
     # Edge Deployment Hub
     st.markdown("---")

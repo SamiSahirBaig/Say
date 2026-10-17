@@ -82,6 +82,20 @@ python raspberry_pi_satellite_edge.py --source /dev/video0 --conf 0.025
 python raspberry_pi_satellite_edge.py --source orbital_pass_demo.mp4 --conf 0.025 --out-json downlink_telemetry.json
 ```
 
+### D. Periodic Camera Module Capture (5–10s Interval)
+When using a live Raspberry Pi Camera Module (CSI via Picamera2 or USB/V4L2 via `/dev/video0`) capturing every 5 to 10 seconds:
+
+```bash
+# Capture and detect every 5 seconds (default camera)
+python raspberry_pi_camera_edge.py --interval 5.0 --conf 0.025
+
+# Capture every 10 seconds and log to custom directory
+python raspberry_pi_camera_edge.py --interval 10.0 --out-dir outputs/camera_captures --out-json downlink_telemetry.json
+
+# Test with simulated sensor on any machine without physical camera
+python raspberry_pi_camera_edge.py --source mock --interval 5.0 --max-captures 10
+```
+
 ---
 
 ## 5. Downlink Telemetry Packet Format (JSON)

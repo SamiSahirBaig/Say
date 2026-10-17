@@ -1,1364 +1,1113 @@
 {
   "satellite_id": "CHIMNEY-CENSUS-CUBESAT-01",
   "processor": "Raspberry Pi 5 Edge AI Payload (ONNX Opset 18)",
-  "total_alerts": 59,
-  "generated_at": "2026-10-16T22:03:26.847839+00:00",
+  "camera_backend": "mock_simulator",
+  "sampling_interval_seconds": 1.0,
+  "total_alerts": 24,
+  "generated_at": "2026-10-17T10:31:57.542855+00:00",
   "alerts": [
     {
-      "event_id": "SAT-ALERT-0003",
-      "timestamp_utc": "2026-10-16T22:03:15.289919+00:00",
-      "frame_id": 3,
-      "kiln_id": 3,
-      "class": "Zigzag",
-      "confidence": 0.049,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.09138,
-        "longitude": 72.90267
-      },
-      "swath_coords": {
-        "x": 467.3,
-        "y": 70.9
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0002",
-      "timestamp_utc": "2026-10-16T22:03:15.519617+00:00",
-      "frame_id": 6,
-      "kiln_id": 2,
-      "class": "Zigzag",
-      "confidence": 0.043,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.08138,
-        "longitude": 72.90245
-      },
-      "swath_coords": {
-        "x": 342.2,
-        "y": 68.2
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0007",
-      "timestamp_utc": "2026-10-16T22:03:15.519690+00:00",
-      "frame_id": 6,
-      "kiln_id": 7,
-      "class": "Zigzag",
-      "confidence": 0.032,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.09292,
-        "longitude": 72.90934
-      },
-      "swath_coords": {
-        "x": 486.5,
-        "y": 154.2
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0011",
-      "timestamp_utc": "2026-10-16T22:03:15.675438+00:00",
-      "frame_id": 8,
-      "kiln_id": 11,
-      "class": "Zigzag",
-      "confidence": 0.035,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.09668,
-        "longitude": 72.91044
-      },
-      "swath_coords": {
-        "x": 533.5,
-        "y": 168.0
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0001",
-      "timestamp_utc": "2026-10-16T22:03:15.675504+00:00",
-      "frame_id": 8,
-      "kiln_id": 1,
-      "class": "Zigzag",
-      "confidence": 0.034,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.07464,
-        "longitude": 72.90176
-      },
-      "swath_coords": {
-        "x": 258.1,
-        "y": 59.6
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0010",
-      "timestamp_utc": "2026-10-16T22:03:15.752365+00:00",
-      "frame_id": 9,
-      "kiln_id": 10,
-      "class": "Zigzag",
-      "confidence": 0.042,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.09715,
-        "longitude": 72.9027
-      },
-      "swath_coords": {
-        "x": 539.3,
-        "y": 71.3
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0004",
-      "timestamp_utc": "2026-10-16T22:03:15.901767+00:00",
-      "frame_id": 11,
-      "kiln_id": 4,
-      "class": "Zigzag",
-      "confidence": 0.033,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.07574,
-        "longitude": 72.9094
-      },
-      "swath_coords": {
-        "x": 271.8,
-        "y": 155.0
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0005",
-      "timestamp_utc": "2026-10-16T22:03:15.978966+00:00",
-      "frame_id": 12,
-      "kiln_id": 5,
-      "class": "Zigzag",
-      "confidence": 0.041,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.0928,
-        "longitude": 72.91719
-      },
-      "swath_coords": {
-        "x": 485.0,
-        "y": 252.4
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0012",
-      "timestamp_utc": "2026-10-16T22:03:15.979124+00:00",
-      "frame_id": 12,
-      "kiln_id": 12,
-      "class": "Zigzag",
-      "confidence": 0.03,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.08886,
-        "longitude": 72.90237
-      },
-      "swath_coords": {
-        "x": 435.7,
-        "y": 67.1
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0014",
-      "timestamp_utc": "2026-10-16T22:03:16.136751+00:00",
-      "frame_id": 14,
-      "kiln_id": 14,
-      "class": "Zigzag",
+      "event_id": "CAM-ALERT-0001-01",
+      "timestamp_utc": "2026-10-17T10:31:57.453909+00:00",
+      "frame_id": 1,
+      "kiln_id": "KILN-001-1",
+      "class": "CFCBK",
       "confidence": 0.046,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.10189,
-        "longitude": 72.91012
-      },
-      "swath_coords": {
-        "x": 598.7,
-        "y": 164.0
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0013",
-      "timestamp_utc": "2026-10-16T22:03:16.137010+00:00",
-      "frame_id": 14,
-      "kiln_id": 13,
-      "class": "Zigzag",
-      "confidence": 0.032,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.10089,
-        "longitude": 72.91785
-      },
-      "swath_coords": {
-        "x": 586.2,
-        "y": 260.6
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0015",
-      "timestamp_utc": "2026-10-16T22:03:16.366870+00:00",
-      "frame_id": 17,
-      "kiln_id": 15,
-      "class": "Zigzag",
-      "confidence": 0.049,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.10399,
-        "longitude": 72.90213
-      },
-      "swath_coords": {
-        "x": 624.8,
-        "y": 64.1
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0017",
-      "timestamp_utc": "2026-10-16T22:03:16.527316+00:00",
-      "frame_id": 19,
-      "kiln_id": 17,
-      "class": "Zigzag",
-      "confidence": 0.075,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.1067,
-        "longitude": 72.91008
-      },
-      "swath_coords": {
-        "x": 658.7,
-        "y": 163.5
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0016",
-      "timestamp_utc": "2026-10-16T22:03:16.527615+00:00",
-      "frame_id": 19,
-      "kiln_id": 16,
-      "class": "Zigzag",
-      "confidence": 0.036,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.10629,
-        "longitude": 72.91779
-      },
-      "swath_coords": {
-        "x": 653.7,
-        "y": 259.9
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0018",
-      "timestamp_utc": "2026-10-16T22:03:16.789671+00:00",
-      "frame_id": 22,
-      "kiln_id": 18,
-      "class": "Zigzag",
-      "confidence": 0.08,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.10959,
-        "longitude": 72.90203
-      },
-      "swath_coords": {
-        "x": 694.9,
-        "y": 62.9
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0019",
-      "timestamp_utc": "2026-10-16T22:03:16.955986+00:00",
-      "frame_id": 24,
-      "kiln_id": 19,
-      "class": "Zigzag",
-      "confidence": 0.041,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.1116,
-        "longitude": 72.91029
-      },
-      "swath_coords": {
-        "x": 720.0,
-        "y": 166.2
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0020",
-      "timestamp_utc": "2026-10-16T22:03:17.037091+00:00",
-      "frame_id": 25,
-      "kiln_id": 20,
-      "class": "Zigzag",
-      "confidence": 0.065,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.11241,
-        "longitude": 72.91757
-      },
-      "swath_coords": {
-        "x": 730.1,
-        "y": 257.1
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0021",
-      "timestamp_utc": "2026-10-16T22:03:17.130607+00:00",
-      "frame_id": 26,
-      "kiln_id": 21,
-      "class": "CFCBK",
-      "confidence": 0.038,
       "compliance_flag": "CRITICAL_VIOLATION",
       "priority": 1,
       "geographic_coords": {
-        "latitude": 21.11606,
-        "longitude": 72.91988
+        "latitude": 21.07553,
+        "longitude": 72.91729
       },
-      "swath_coords": {
-        "x": 775.7,
-        "y": 285.9
+      "metrics": {
+        "orientation_deg": 0.3,
+        "estimated_area_m2": 1439465.6,
+        "dimensions_m": {
+          "length": 1224.8,
+          "width": 1175.3
+        }
       },
+      "corners": [
+        [
+          312.1,
+          319.4
+        ],
+        [
+          312.6,
+          201.9
+        ],
+        [
+          190.1,
+          201.3
+        ],
+        [
+          189.6,
+          318.8
+        ]
+      ],
       "telemetry": {
+        "sensor": "Raspberry Pi Camera (mock_simulator)",
+        "sampling_interval_s": 1.0,
         "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+        "ground_speed_kms": 7.58
       }
     },
     {
-      "event_id": "SAT-ALERT-0023",
-      "timestamp_utc": "2026-10-16T22:03:17.868097+00:00",
-      "frame_id": 35,
-      "kiln_id": 23,
-      "class": "Zigzag",
-      "confidence": 0.047,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.1157,
-        "longitude": 72.90337
-      },
-      "swath_coords": {
-        "x": 771.3,
-        "y": 79.6
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0024",
-      "timestamp_utc": "2026-10-16T22:03:17.868251+00:00",
-      "frame_id": 35,
-      "kiln_id": 24,
-      "class": "Zigzag",
-      "confidence": 0.046,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.11641,
-        "longitude": 72.9099
-      },
-      "swath_coords": {
-        "x": 780.1,
-        "y": 161.2
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0027",
-      "timestamp_utc": "2026-10-16T22:03:18.781812+00:00",
-      "frame_id": 46,
-      "kiln_id": 27,
-      "class": "CFCBK",
-      "confidence": 0.043,
-      "compliance_flag": "CRITICAL_VIOLATION",
-      "priority": 1,
-      "geographic_coords": {
-        "latitude": 21.12116,
-        "longitude": 72.92153
-      },
-      "swath_coords": {
-        "x": 839.5,
-        "y": 306.6
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0026",
-      "timestamp_utc": "2026-10-16T22:03:19.354061+00:00",
-      "frame_id": 53,
-      "kiln_id": 26,
-      "class": "CFCBK",
-      "confidence": 0.045,
-      "compliance_flag": "CRITICAL_VIOLATION",
-      "priority": 1,
-      "geographic_coords": {
-        "latitude": 21.12496,
-        "longitude": 72.90363
-      },
-      "swath_coords": {
-        "x": 887.0,
-        "y": 82.9
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0028",
-      "timestamp_utc": "2026-10-16T22:03:20.060398+00:00",
-      "frame_id": 62,
-      "kiln_id": 28,
-      "class": "CFCBK",
-      "confidence": 0.041,
-      "compliance_flag": "CRITICAL_VIOLATION",
-      "priority": 1,
-      "geographic_coords": {
-        "latitude": 21.13727,
-        "longitude": 72.91631
-      },
-      "swath_coords": {
-        "x": 1040.8,
-        "y": 241.4
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0029",
-      "timestamp_utc": "2026-10-16T22:03:20.221065+00:00",
-      "frame_id": 64,
-      "kiln_id": 29,
-      "class": "Zigzag",
-      "confidence": 0.067,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.12164,
-        "longitude": 72.90337
-      },
-      "swath_coords": {
-        "x": 845.5,
-        "y": 79.6
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0031",
-      "timestamp_utc": "2026-10-16T22:03:20.295595+00:00",
-      "frame_id": 65,
-      "kiln_id": 31,
-      "class": "Zigzag",
-      "confidence": 0.046,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.12349,
-        "longitude": 72.91754
-      },
-      "swath_coords": {
-        "x": 868.7,
-        "y": 256.7
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0030",
-      "timestamp_utc": "2026-10-16T22:03:20.379829+00:00",
-      "frame_id": 66,
-      "kiln_id": 30,
-      "class": "Zigzag",
-      "confidence": 0.046,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.12247,
-        "longitude": 72.90971
-      },
-      "swath_coords": {
-        "x": 855.8,
-        "y": 158.9
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0034",
-      "timestamp_utc": "2026-10-16T22:03:20.527606+00:00",
-      "frame_id": 68,
-      "kiln_id": 34,
-      "class": "CFCBK",
-      "confidence": 0.037,
-      "compliance_flag": "CRITICAL_VIOLATION",
-      "priority": 1,
-      "geographic_coords": {
-        "latitude": 21.15331,
-        "longitude": 72.90104
-      },
-      "swath_coords": {
-        "x": 1241.4,
-        "y": 50.4
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0032",
-      "timestamp_utc": "2026-10-16T22:03:21.067643+00:00",
-      "frame_id": 75,
-      "kiln_id": 32,
-      "class": "CFCBK",
-      "confidence": 0.041,
-      "compliance_flag": "CRITICAL_VIOLATION",
-      "priority": 1,
-      "geographic_coords": {
-        "latitude": 21.13117,
-        "longitude": 72.90382
-      },
-      "swath_coords": {
-        "x": 964.6,
-        "y": 85.3
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0035",
-      "timestamp_utc": "2026-10-16T22:03:21.163995+00:00",
-      "frame_id": 76,
-      "kiln_id": 35,
-      "class": "CFCBK",
-      "confidence": 0.034,
-      "compliance_flag": "CRITICAL_VIOLATION",
-      "priority": 1,
-      "geographic_coords": {
-        "latitude": 21.15041,
-        "longitude": 72.90637
-      },
-      "swath_coords": {
-        "x": 1205.2,
-        "y": 117.1
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0036",
-      "timestamp_utc": "2026-10-16T22:03:21.250972+00:00",
-      "frame_id": 77,
-      "kiln_id": 36,
-      "class": "CFCBK",
-      "confidence": 0.043,
-      "compliance_flag": "CRITICAL_VIOLATION",
-      "priority": 1,
-      "geographic_coords": {
-        "latitude": 21.12816,
-        "longitude": 72.92154
-      },
-      "swath_coords": {
-        "x": 927.0,
-        "y": 306.7
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0039",
-      "timestamp_utc": "2026-10-16T22:03:21.251170+00:00",
-      "frame_id": 77,
-      "kiln_id": 39,
-      "class": "CFCBK",
-      "confidence": 0.031,
-      "compliance_flag": "CRITICAL_VIOLATION",
-      "priority": 1,
-      "geographic_coords": {
-        "latitude": 21.15903,
-        "longitude": 72.90118
-      },
-      "swath_coords": {
-        "x": 1312.9,
-        "y": 52.3
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0038",
-      "timestamp_utc": "2026-10-16T22:03:22.319520+00:00",
-      "frame_id": 92,
-      "kiln_id": 38,
-      "class": "CFCBK",
-      "confidence": 0.039,
-      "compliance_flag": "CRITICAL_VIOLATION",
-      "priority": 1,
-      "geographic_coords": {
-        "latitude": 21.16388,
-        "longitude": 72.89915
-      },
-      "swath_coords": {
-        "x": 1373.4,
-        "y": 26.9
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0040",
-      "timestamp_utc": "2026-10-16T22:03:22.389580+00:00",
-      "frame_id": 93,
-      "kiln_id": 40,
+      "event_id": "CAM-ALERT-0001-02",
+      "timestamp_utc": "2026-10-17T10:31:57.453909+00:00",
+      "frame_id": 1,
+      "kiln_id": "KILN-001-2",
       "class": "CFCBK",
       "confidence": 0.04,
       "compliance_flag": "CRITICAL_VIOLATION",
       "priority": 1,
       "geographic_coords": {
-        "latitude": 21.14421,
-        "longitude": 72.91641
+        "latitude": 21.06745,
+        "longitude": 72.92521
       },
-      "swath_coords": {
-        "x": 1127.7,
-        "y": 242.6
+      "metrics": {
+        "orientation_deg": 87.5,
+        "estimated_area_m2": 1554676.7,
+        "dimensions_m": {
+          "length": 1261.3,
+          "width": 1232.6
+        }
       },
+      "corners": [
+        [
+          414.5,
+          219.7
+        ],
+        [
+          409.0,
+          93.7
+        ],
+        [
+          285.8,
+          99.1
+        ],
+        [
+          291.4,
+          225.1
+        ]
+      ],
       "telemetry": {
+        "sensor": "Raspberry Pi Camera (mock_simulator)",
+        "sampling_interval_s": 1.0,
         "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+        "ground_speed_kms": 7.58
       }
     },
     {
-      "event_id": "SAT-ALERT-0042",
-      "timestamp_utc": "2026-10-16T22:03:22.767198+00:00",
-      "frame_id": 98,
-      "kiln_id": 42,
-      "class": "Zigzag",
-      "confidence": 0.032,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.18325,
-        "longitude": 72.9018
-      },
-      "swath_coords": {
-        "x": 1615.6,
-        "y": 60.0
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0047",
-      "timestamp_utc": "2026-10-16T22:03:23.551696+00:00",
-      "frame_id": 109,
-      "kiln_id": 47,
-      "class": "CFCBK",
-      "confidence": 0.04,
-      "compliance_flag": "CRITICAL_VIOLATION",
-      "priority": 1,
-      "geographic_coords": {
-        "latitude": 21.19499,
-        "longitude": 72.90579
-      },
-      "swath_coords": {
-        "x": 1762.3,
-        "y": 109.9
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0049",
-      "timestamp_utc": "2026-10-16T22:03:23.551764+00:00",
-      "frame_id": 109,
-      "kiln_id": 49,
-      "class": "Zigzag",
-      "confidence": 0.039,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.19202,
-        "longitude": 72.90965
-      },
-      "swath_coords": {
-        "x": 1725.3,
-        "y": 158.1
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0043",
-      "timestamp_utc": "2026-10-16T22:03:23.701929+00:00",
-      "frame_id": 111,
-      "kiln_id": 43,
+      "event_id": "CAM-ALERT-0001-03",
+      "timestamp_utc": "2026-10-17T10:31:57.453909+00:00",
+      "frame_id": 1,
+      "kiln_id": "KILN-001-3",
       "class": "CFCBK",
       "confidence": 0.037,
       "compliance_flag": "CRITICAL_VIOLATION",
       "priority": 1,
       "geographic_coords": {
-        "latitude": 21.18116,
-        "longitude": 72.91408
-      },
-      "swath_coords": {
-        "x": 1589.5,
-        "y": 213.5
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0050",
-      "timestamp_utc": "2026-10-16T22:03:23.702064+00:00",
-      "frame_id": 111,
-      "kiln_id": 50,
-      "class": "Zigzag",
-      "confidence": 0.037,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.19791,
-        "longitude": 72.9083
-      },
-      "swath_coords": {
-        "x": 1798.8,
-        "y": 141.2
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0045",
-      "timestamp_utc": "2026-10-16T22:03:23.776850+00:00",
-      "frame_id": 112,
-      "kiln_id": 45,
-      "class": "Zigzag",
-      "confidence": 0.034,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.18873,
+        "latitude": 21.05975,
         "longitude": 72.90207
       },
-      "swath_coords": {
-        "x": 1684.1,
-        "y": 63.4
+      "metrics": {
+        "orientation_deg": 87.7,
+        "estimated_area_m2": 1578047.9,
+        "dimensions_m": {
+          "length": 1261.6,
+          "width": 1250.8
+        }
       },
+      "corners": [
+        [
+          126.0,
+          123.6
+        ],
+        [
+          120.8,
+          -2.5
+        ],
+        [
+          -4.1,
+          2.6
+        ],
+        [
+          1.0,
+          128.7
+        ]
+      ],
       "telemetry": {
+        "sensor": "Raspberry Pi Camera (mock_simulator)",
+        "sampling_interval_s": 1.0,
         "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+        "ground_speed_kms": 7.58
       }
     },
     {
-      "event_id": "SAT-ALERT-0052",
-      "timestamp_utc": "2026-10-16T22:03:24.299632+00:00",
-      "frame_id": 119,
-      "kiln_id": 52,
-      "class": "Zigzag",
-      "confidence": 0.03,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.19357,
-        "longitude": 72.91902
-      },
-      "swath_coords": {
-        "x": 1744.6,
-        "y": 275.2
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0051",
-      "timestamp_utc": "2026-10-16T22:03:24.448667+00:00",
-      "frame_id": 121,
-      "kiln_id": 51,
-      "class": "Zigzag",
-      "confidence": 0.033,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.19853,
-        "longitude": 72.90162
-      },
-      "swath_coords": {
-        "x": 1806.7,
-        "y": 57.8
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0053",
-      "timestamp_utc": "2026-10-16T22:03:24.522994+00:00",
-      "frame_id": 122,
-      "kiln_id": 53,
-      "class": "Zigzag",
-      "confidence": 0.034,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.20584,
-        "longitude": 72.91752
-      },
-      "swath_coords": {
-        "x": 1898.0,
-        "y": 256.5
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0054",
-      "timestamp_utc": "2026-10-16T22:03:24.598018+00:00",
-      "frame_id": 123,
-      "kiln_id": 54,
-      "class": "Zigzag",
-      "confidence": 0.04,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.20594,
-        "longitude": 72.90966
-      },
-      "swath_coords": {
-        "x": 1899.3,
-        "y": 158.3
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0058",
-      "timestamp_utc": "2026-10-16T22:03:24.825344+00:00",
-      "frame_id": 126,
-      "kiln_id": 58,
-      "class": "Zigzag",
-      "confidence": 0.06,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.20988,
-        "longitude": 72.91026
-      },
-      "swath_coords": {
-        "x": 1948.6,
-        "y": 165.7
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0062",
-      "timestamp_utc": "2026-10-16T22:03:24.980449+00:00",
-      "frame_id": 128,
-      "kiln_id": 62,
-      "class": "Zigzag",
-      "confidence": 0.034,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.21156,
-        "longitude": 72.91793
-      },
-      "swath_coords": {
-        "x": 1969.5,
-        "y": 261.6
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0056",
-      "timestamp_utc": "2026-10-16T22:03:25.293734+00:00",
-      "frame_id": 132,
-      "kiln_id": 56,
-      "class": "Zigzag",
-      "confidence": 0.049,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.19233,
-        "longitude": 72.90205
-      },
-      "swath_coords": {
-        "x": 1729.2,
-        "y": 63.1
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0059",
-      "timestamp_utc": "2026-10-16T22:03:25.366228+00:00",
-      "frame_id": 133,
-      "kiln_id": 59,
-      "class": "Zigzag",
-      "confidence": 0.031,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.20158,
-        "longitude": 72.91115
-      },
-      "swath_coords": {
-        "x": 1844.7,
-        "y": 176.9
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0060",
-      "timestamp_utc": "2026-10-16T22:03:25.441436+00:00",
-      "frame_id": 134,
-      "kiln_id": 60,
-      "class": "Zigzag",
-      "confidence": 0.033,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.2011,
-        "longitude": 72.91928
-      },
-      "swath_coords": {
-        "x": 1838.7,
-        "y": 278.4
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0067",
-      "timestamp_utc": "2026-10-16T22:03:25.754800+00:00",
-      "frame_id": 138,
-      "kiln_id": 67,
-      "class": "Zigzag",
-      "confidence": 0.04,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.22158,
-        "longitude": 72.91023
-      },
-      "swath_coords": {
-        "x": 2094.8,
-        "y": 165.4
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0048",
-      "timestamp_utc": "2026-10-16T22:03:25.830650+00:00",
-      "frame_id": 139,
-      "kiln_id": 48,
+      "event_id": "CAM-ALERT-0001-04",
+      "timestamp_utc": "2026-10-17T10:31:57.453909+00:00",
+      "frame_id": 1,
+      "kiln_id": "KILN-001-4",
       "class": "CFCBK",
-      "confidence": 0.031,
+      "confidence": 0.037,
       "compliance_flag": "CRITICAL_VIOLATION",
       "priority": 1,
       "geographic_coords": {
-        "latitude": 21.189,
-        "longitude": 72.91481
+        "latitude": 21.05975,
+        "longitude": 72.90975
       },
-      "swath_coords": {
-        "x": 1687.4,
-        "y": 222.6
+      "metrics": {
+        "orientation_deg": 87.7,
+        "estimated_area_m2": 1578048.0,
+        "dimensions_m": {
+          "length": 1261.6,
+          "width": 1250.8
+        }
       },
+      "corners": [
+        [
+          222.0,
+          123.6
+        ],
+        [
+          216.8,
+          -2.5
+        ],
+        [
+          91.9,
+          2.6
+        ],
+        [
+          97.0,
+          128.7
+        ]
+      ],
       "telemetry": {
+        "sensor": "Raspberry Pi Camera (mock_simulator)",
+        "sampling_interval_s": 1.0,
         "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+        "ground_speed_kms": 7.58
       }
     },
     {
-      "event_id": "SAT-ALERT-0066",
-      "timestamp_utc": "2026-10-16T22:03:25.904555+00:00",
-      "frame_id": 140,
-      "kiln_id": 66,
-      "class": "Zigzag",
-      "confidence": 0.038,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.21948,
-        "longitude": 72.91831
-      },
-      "swath_coords": {
-        "x": 2068.5,
-        "y": 266.4
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0071",
-      "timestamp_utc": "2026-10-16T22:03:26.290279+00:00",
-      "frame_id": 144,
-      "kiln_id": 71,
-      "class": "Zigzag",
-      "confidence": 0.043,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.22776,
-        "longitude": 72.91894
-      },
-      "swath_coords": {
-        "x": 2172.1,
-        "y": 274.3
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0070",
-      "timestamp_utc": "2026-10-16T22:03:26.290498+00:00",
-      "frame_id": 144,
-      "kiln_id": 70,
-      "class": "Zigzag",
-      "confidence": 0.033,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.22704,
-        "longitude": 72.90978
-      },
-      "swath_coords": {
-        "x": 2163.1,
-        "y": 159.7
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0069",
-      "timestamp_utc": "2026-10-16T22:03:26.483049+00:00",
-      "frame_id": 146,
-      "kiln_id": 69,
-      "class": "Zigzag",
-      "confidence": 0.04,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
-      "geographic_coords": {
-        "latitude": 21.21514,
-        "longitude": 72.91057
-      },
-      "swath_coords": {
-        "x": 2014.3,
-        "y": 169.6
-      },
-      "telemetry": {
-        "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
-      }
-    },
-    {
-      "event_id": "SAT-ALERT-0064",
-      "timestamp_utc": "2026-10-16T22:03:26.758167+00:00",
-      "frame_id": 148,
-      "kiln_id": 64,
+      "event_id": "CAM-ALERT-0001-05",
+      "timestamp_utc": "2026-10-17T10:31:57.453909+00:00",
+      "frame_id": 1,
+      "kiln_id": "KILN-001-5",
       "class": "CFCBK",
-      "confidence": 0.04,
+      "confidence": 0.037,
       "compliance_flag": "CRITICAL_VIOLATION",
       "priority": 1,
       "geographic_coords": {
-        "latitude": 21.20312,
-        "longitude": 72.9017
+        "latitude": 21.05975,
+        "longitude": 72.91743
       },
-      "swath_coords": {
-        "x": 1864.0,
-        "y": 58.7
+      "metrics": {
+        "orientation_deg": 87.7,
+        "estimated_area_m2": 1578048.0,
+        "dimensions_m": {
+          "length": 1261.6,
+          "width": 1250.8
+        }
       },
+      "corners": [
+        [
+          318.0,
+          123.6
+        ],
+        [
+          312.8,
+          -2.5
+        ],
+        [
+          187.9,
+          2.6
+        ],
+        [
+          193.0,
+          128.7
+        ]
+      ],
       "telemetry": {
+        "sensor": "Raspberry Pi Camera (mock_simulator)",
+        "sampling_interval_s": 1.0,
         "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+        "ground_speed_kms": 7.58
       }
     },
     {
-      "event_id": "SAT-ALERT-0072",
-      "timestamp_utc": "2026-10-16T22:03:26.839730+00:00",
-      "frame_id": 149,
-      "kiln_id": 72,
+      "event_id": "CAM-ALERT-0001-06",
+      "timestamp_utc": "2026-10-17T10:31:57.453909+00:00",
+      "frame_id": 1,
+      "kiln_id": "KILN-001-6",
       "class": "CFCBK",
-      "confidence": 0.043,
+      "confidence": 0.037,
       "compliance_flag": "CRITICAL_VIOLATION",
       "priority": 1,
       "geographic_coords": {
-        "latitude": 21.20343,
-        "longitude": 72.90575
+        "latitude": 21.05975,
+        "longitude": 72.92511
       },
-      "swath_coords": {
-        "x": 1867.9,
-        "y": 109.3
+      "metrics": {
+        "orientation_deg": 87.7,
+        "estimated_area_m2": 1578048.0,
+        "dimensions_m": {
+          "length": 1261.6,
+          "width": 1250.8
+        }
       },
+      "corners": [
+        [
+          414.0,
+          123.6
+        ],
+        [
+          408.8,
+          -2.5
+        ],
+        [
+          283.9,
+          2.6
+        ],
+        [
+          289.0,
+          128.7
+        ]
+      ],
       "telemetry": {
+        "sensor": "Raspberry Pi Camera (mock_simulator)",
+        "sampling_interval_s": 1.0,
         "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+        "ground_speed_kms": 7.58
       }
     },
     {
-      "event_id": "SAT-ALERT-0075",
-      "timestamp_utc": "2026-10-16T22:03:26.839839+00:00",
-      "frame_id": 149,
-      "kiln_id": 75,
-      "class": "Zigzag",
-      "confidence": 0.04,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
+      "event_id": "CAM-ALERT-0001-07",
+      "timestamp_utc": "2026-10-17T10:31:57.453909+00:00",
+      "frame_id": 1,
+      "kiln_id": "KILN-001-7",
+      "class": "CFCBK",
+      "confidence": 0.037,
+      "compliance_flag": "CRITICAL_VIOLATION",
+      "priority": 1,
       "geographic_coords": {
-        "latitude": 21.23183,
-        "longitude": 72.9167
+        "latitude": 21.05975,
+        "longitude": 72.93279
       },
-      "swath_coords": {
-        "x": 2222.9,
-        "y": 246.2
+      "metrics": {
+        "orientation_deg": 87.7,
+        "estimated_area_m2": 1578048.0,
+        "dimensions_m": {
+          "length": 1261.6,
+          "width": 1250.8
+        }
       },
+      "corners": [
+        [
+          510.0,
+          123.6
+        ],
+        [
+          504.8,
+          -2.5
+        ],
+        [
+          379.9,
+          2.6
+        ],
+        [
+          385.0,
+          128.7
+        ]
+      ],
       "telemetry": {
+        "sensor": "Raspberry Pi Camera (mock_simulator)",
+        "sampling_interval_s": 1.0,
         "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+        "ground_speed_kms": 7.58
       }
     },
     {
-      "event_id": "SAT-ALERT-0074",
-      "timestamp_utc": "2026-10-16T22:03:26.840032+00:00",
-      "frame_id": 149,
-      "kiln_id": 74,
-      "class": "Zigzag",
-      "confidence": 0.036,
-      "compliance_flag": "COMPLIANT_ZIGZAG",
-      "priority": 3,
+      "event_id": "CAM-ALERT-0001-08",
+      "timestamp_utc": "2026-10-17T10:31:57.453909+00:00",
+      "frame_id": 1,
+      "kiln_id": "KILN-001-8",
+      "class": "CFCBK",
+      "confidence": 0.037,
+      "compliance_flag": "CRITICAL_VIOLATION",
+      "priority": 1,
       "geographic_coords": {
-        "latitude": 21.22359,
-        "longitude": 72.91837
+        "latitude": 21.05975,
+        "longitude": 72.94047
       },
-      "swath_coords": {
-        "x": 2119.8,
-        "y": 267.2
+      "metrics": {
+        "orientation_deg": 87.7,
+        "estimated_area_m2": 1578047.5,
+        "dimensions_m": {
+          "length": 1261.6,
+          "width": 1250.8
+        }
       },
+      "corners": [
+        [
+          606.0,
+          123.6
+        ],
+        [
+          600.8,
+          -2.5
+        ],
+        [
+          475.9,
+          2.6
+        ],
+        [
+          481.0,
+          128.7
+        ]
+      ],
       "telemetry": {
+        "sensor": "Raspberry Pi Camera (mock_simulator)",
+        "sampling_interval_s": 1.0,
         "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+        "ground_speed_kms": 7.58
       }
     },
     {
-      "event_id": "SAT-ALERT-0073",
-      "timestamp_utc": "2026-10-16T22:03:26.840122+00:00",
-      "frame_id": 149,
-      "kiln_id": 73,
+      "event_id": "CAM-ALERT-0001-09",
+      "timestamp_utc": "2026-10-17T10:31:57.453909+00:00",
+      "frame_id": 1,
+      "kiln_id": "KILN-001-9",
+      "class": "CFCBK",
+      "confidence": 0.037,
+      "compliance_flag": "CRITICAL_VIOLATION",
+      "priority": 1,
+      "geographic_coords": {
+        "latitude": 21.06743,
+        "longitude": 72.90207
+      },
+      "metrics": {
+        "orientation_deg": 87.7,
+        "estimated_area_m2": 1578047.8,
+        "dimensions_m": {
+          "length": 1261.6,
+          "width": 1250.8
+        }
+      },
+      "corners": [
+        [
+          126.0,
+          219.6
+        ],
+        [
+          120.8,
+          93.5
+        ],
+        [
+          -4.1,
+          98.6
+        ],
+        [
+          1.0,
+          224.7
+        ]
+      ],
+      "telemetry": {
+        "sensor": "Raspberry Pi Camera (mock_simulator)",
+        "sampling_interval_s": 1.0,
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58
+      }
+    },
+    {
+      "event_id": "CAM-ALERT-0001-10",
+      "timestamp_utc": "2026-10-17T10:31:57.453909+00:00",
+      "frame_id": 1,
+      "kiln_id": "KILN-001-10",
+      "class": "CFCBK",
+      "confidence": 0.037,
+      "compliance_flag": "CRITICAL_VIOLATION",
+      "priority": 1,
+      "geographic_coords": {
+        "latitude": 21.06743,
+        "longitude": 72.90975
+      },
+      "metrics": {
+        "orientation_deg": 87.7,
+        "estimated_area_m2": 1578047.9,
+        "dimensions_m": {
+          "length": 1261.6,
+          "width": 1250.8
+        }
+      },
+      "corners": [
+        [
+          222.0,
+          219.6
+        ],
+        [
+          216.8,
+          93.5
+        ],
+        [
+          91.9,
+          98.6
+        ],
+        [
+          97.0,
+          224.7
+        ]
+      ],
+      "telemetry": {
+        "sensor": "Raspberry Pi Camera (mock_simulator)",
+        "sampling_interval_s": 1.0,
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58
+      }
+    },
+    {
+      "event_id": "CAM-ALERT-0001-11",
+      "timestamp_utc": "2026-10-17T10:31:57.453909+00:00",
+      "frame_id": 1,
+      "kiln_id": "KILN-001-11",
+      "class": "CFCBK",
+      "confidence": 0.037,
+      "compliance_flag": "CRITICAL_VIOLATION",
+      "priority": 1,
+      "geographic_coords": {
+        "latitude": 21.06743,
+        "longitude": 72.93279
+      },
+      "metrics": {
+        "orientation_deg": 87.7,
+        "estimated_area_m2": 1578047.9,
+        "dimensions_m": {
+          "length": 1261.6,
+          "width": 1250.8
+        }
+      },
+      "corners": [
+        [
+          510.0,
+          219.6
+        ],
+        [
+          504.8,
+          93.5
+        ],
+        [
+          379.9,
+          98.6
+        ],
+        [
+          385.0,
+          224.7
+        ]
+      ],
+      "telemetry": {
+        "sensor": "Raspberry Pi Camera (mock_simulator)",
+        "sampling_interval_s": 1.0,
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58
+      }
+    },
+    {
+      "event_id": "CAM-ALERT-0001-12",
+      "timestamp_utc": "2026-10-17T10:31:57.453909+00:00",
+      "frame_id": 1,
+      "kiln_id": "KILN-001-12",
+      "class": "CFCBK",
+      "confidence": 0.037,
+      "compliance_flag": "CRITICAL_VIOLATION",
+      "priority": 1,
+      "geographic_coords": {
+        "latitude": 21.06743,
+        "longitude": 72.94047
+      },
+      "metrics": {
+        "orientation_deg": 87.7,
+        "estimated_area_m2": 1578047.5,
+        "dimensions_m": {
+          "length": 1261.6,
+          "width": 1250.8
+        }
+      },
+      "corners": [
+        [
+          606.0,
+          219.6
+        ],
+        [
+          600.8,
+          93.5
+        ],
+        [
+          475.9,
+          98.6
+        ],
+        [
+          481.0,
+          224.7
+        ]
+      ],
+      "telemetry": {
+        "sensor": "Raspberry Pi Camera (mock_simulator)",
+        "sampling_interval_s": 1.0,
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58
+      }
+    },
+    {
+      "event_id": "CAM-ALERT-0001-13",
+      "timestamp_utc": "2026-10-17T10:31:57.453909+00:00",
+      "frame_id": 1,
+      "kiln_id": "KILN-001-13",
+      "class": "CFCBK",
+      "confidence": 0.037,
+      "compliance_flag": "CRITICAL_VIOLATION",
+      "priority": 1,
+      "geographic_coords": {
+        "latitude": 21.07511,
+        "longitude": 72.90207
+      },
+      "metrics": {
+        "orientation_deg": 87.7,
+        "estimated_area_m2": 1578048.0,
+        "dimensions_m": {
+          "length": 1261.6,
+          "width": 1250.8
+        }
+      },
+      "corners": [
+        [
+          126.0,
+          315.6
+        ],
+        [
+          120.8,
+          189.5
+        ],
+        [
+          -4.1,
+          194.6
+        ],
+        [
+          1.0,
+          320.7
+        ]
+      ],
+      "telemetry": {
+        "sensor": "Raspberry Pi Camera (mock_simulator)",
+        "sampling_interval_s": 1.0,
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58
+      }
+    },
+    {
+      "event_id": "CAM-ALERT-0001-14",
+      "timestamp_utc": "2026-10-17T10:31:57.453909+00:00",
+      "frame_id": 1,
+      "kiln_id": "KILN-001-14",
+      "class": "CFCBK",
+      "confidence": 0.037,
+      "compliance_flag": "CRITICAL_VIOLATION",
+      "priority": 1,
+      "geographic_coords": {
+        "latitude": 21.07511,
+        "longitude": 72.90975
+      },
+      "metrics": {
+        "orientation_deg": 87.7,
+        "estimated_area_m2": 1578048.1,
+        "dimensions_m": {
+          "length": 1261.6,
+          "width": 1250.8
+        }
+      },
+      "corners": [
+        [
+          222.0,
+          315.6
+        ],
+        [
+          216.8,
+          189.5
+        ],
+        [
+          91.9,
+          194.6
+        ],
+        [
+          97.0,
+          320.7
+        ]
+      ],
+      "telemetry": {
+        "sensor": "Raspberry Pi Camera (mock_simulator)",
+        "sampling_interval_s": 1.0,
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58
+      }
+    },
+    {
+      "event_id": "CAM-ALERT-0001-15",
+      "timestamp_utc": "2026-10-17T10:31:57.453909+00:00",
+      "frame_id": 1,
+      "kiln_id": "KILN-001-15",
+      "class": "CFCBK",
+      "confidence": 0.037,
+      "compliance_flag": "CRITICAL_VIOLATION",
+      "priority": 1,
+      "geographic_coords": {
+        "latitude": 21.07511,
+        "longitude": 72.93279
+      },
+      "metrics": {
+        "orientation_deg": 87.7,
+        "estimated_area_m2": 1578048.1,
+        "dimensions_m": {
+          "length": 1261.6,
+          "width": 1250.8
+        }
+      },
+      "corners": [
+        [
+          510.0,
+          315.6
+        ],
+        [
+          504.8,
+          189.5
+        ],
+        [
+          379.9,
+          194.6
+        ],
+        [
+          385.0,
+          320.7
+        ]
+      ],
+      "telemetry": {
+        "sensor": "Raspberry Pi Camera (mock_simulator)",
+        "sampling_interval_s": 1.0,
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58
+      }
+    },
+    {
+      "event_id": "CAM-ALERT-0001-16",
+      "timestamp_utc": "2026-10-17T10:31:57.453909+00:00",
+      "frame_id": 1,
+      "kiln_id": "KILN-001-16",
+      "class": "CFCBK",
+      "confidence": 0.037,
+      "compliance_flag": "CRITICAL_VIOLATION",
+      "priority": 1,
+      "geographic_coords": {
+        "latitude": 21.07511,
+        "longitude": 72.94047
+      },
+      "metrics": {
+        "orientation_deg": 87.7,
+        "estimated_area_m2": 1578047.6,
+        "dimensions_m": {
+          "length": 1261.6,
+          "width": 1250.8
+        }
+      },
+      "corners": [
+        [
+          606.0,
+          315.6
+        ],
+        [
+          600.8,
+          189.5
+        ],
+        [
+          475.9,
+          194.6
+        ],
+        [
+          481.0,
+          320.7
+        ]
+      ],
+      "telemetry": {
+        "sensor": "Raspberry Pi Camera (mock_simulator)",
+        "sampling_interval_s": 1.0,
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58
+      }
+    },
+    {
+      "event_id": "CAM-ALERT-0001-17",
+      "timestamp_utc": "2026-10-17T10:31:57.453909+00:00",
+      "frame_id": 1,
+      "kiln_id": "KILN-001-17",
+      "class": "CFCBK",
+      "confidence": 0.037,
+      "compliance_flag": "CRITICAL_VIOLATION",
+      "priority": 1,
+      "geographic_coords": {
+        "latitude": 21.08279,
+        "longitude": 72.90207
+      },
+      "metrics": {
+        "orientation_deg": 87.7,
+        "estimated_area_m2": 1578047.8,
+        "dimensions_m": {
+          "length": 1261.6,
+          "width": 1250.8
+        }
+      },
+      "corners": [
+        [
+          126.0,
+          411.6
+        ],
+        [
+          120.8,
+          285.5
+        ],
+        [
+          -4.1,
+          290.6
+        ],
+        [
+          1.0,
+          416.7
+        ]
+      ],
+      "telemetry": {
+        "sensor": "Raspberry Pi Camera (mock_simulator)",
+        "sampling_interval_s": 1.0,
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58
+      }
+    },
+    {
+      "event_id": "CAM-ALERT-0001-18",
+      "timestamp_utc": "2026-10-17T10:31:57.453909+00:00",
+      "frame_id": 1,
+      "kiln_id": "KILN-001-18",
+      "class": "CFCBK",
+      "confidence": 0.037,
+      "compliance_flag": "CRITICAL_VIOLATION",
+      "priority": 1,
+      "geographic_coords": {
+        "latitude": 21.08279,
+        "longitude": 72.90975
+      },
+      "metrics": {
+        "orientation_deg": 87.7,
+        "estimated_area_m2": 1578047.9,
+        "dimensions_m": {
+          "length": 1261.6,
+          "width": 1250.8
+        }
+      },
+      "corners": [
+        [
+          222.0,
+          411.6
+        ],
+        [
+          216.8,
+          285.5
+        ],
+        [
+          91.9,
+          290.6
+        ],
+        [
+          97.0,
+          416.7
+        ]
+      ],
+      "telemetry": {
+        "sensor": "Raspberry Pi Camera (mock_simulator)",
+        "sampling_interval_s": 1.0,
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58
+      }
+    },
+    {
+      "event_id": "CAM-ALERT-0001-19",
+      "timestamp_utc": "2026-10-17T10:31:57.453909+00:00",
+      "frame_id": 1,
+      "kiln_id": "KILN-001-19",
+      "class": "CFCBK",
+      "confidence": 0.037,
+      "compliance_flag": "CRITICAL_VIOLATION",
+      "priority": 1,
+      "geographic_coords": {
+        "latitude": 21.08279,
+        "longitude": 72.91743
+      },
+      "metrics": {
+        "orientation_deg": 87.7,
+        "estimated_area_m2": 1578047.9,
+        "dimensions_m": {
+          "length": 1261.6,
+          "width": 1250.8
+        }
+      },
+      "corners": [
+        [
+          318.0,
+          411.6
+        ],
+        [
+          312.8,
+          285.5
+        ],
+        [
+          187.9,
+          290.6
+        ],
+        [
+          193.0,
+          416.7
+        ]
+      ],
+      "telemetry": {
+        "sensor": "Raspberry Pi Camera (mock_simulator)",
+        "sampling_interval_s": 1.0,
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58
+      }
+    },
+    {
+      "event_id": "CAM-ALERT-0001-20",
+      "timestamp_utc": "2026-10-17T10:31:57.453909+00:00",
+      "frame_id": 1,
+      "kiln_id": "KILN-001-20",
+      "class": "CFCBK",
+      "confidence": 0.037,
+      "compliance_flag": "CRITICAL_VIOLATION",
+      "priority": 1,
+      "geographic_coords": {
+        "latitude": 21.08279,
+        "longitude": 72.92511
+      },
+      "metrics": {
+        "orientation_deg": 87.7,
+        "estimated_area_m2": 1578047.9,
+        "dimensions_m": {
+          "length": 1261.6,
+          "width": 1250.8
+        }
+      },
+      "corners": [
+        [
+          414.0,
+          411.6
+        ],
+        [
+          408.8,
+          285.5
+        ],
+        [
+          283.9,
+          290.6
+        ],
+        [
+          289.0,
+          416.7
+        ]
+      ],
+      "telemetry": {
+        "sensor": "Raspberry Pi Camera (mock_simulator)",
+        "sampling_interval_s": 1.0,
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58
+      }
+    },
+    {
+      "event_id": "CAM-ALERT-0001-21",
+      "timestamp_utc": "2026-10-17T10:31:57.453909+00:00",
+      "frame_id": 1,
+      "kiln_id": "KILN-001-21",
+      "class": "CFCBK",
+      "confidence": 0.037,
+      "compliance_flag": "CRITICAL_VIOLATION",
+      "priority": 1,
+      "geographic_coords": {
+        "latitude": 21.08279,
+        "longitude": 72.93279
+      },
+      "metrics": {
+        "orientation_deg": 87.7,
+        "estimated_area_m2": 1578047.9,
+        "dimensions_m": {
+          "length": 1261.6,
+          "width": 1250.8
+        }
+      },
+      "corners": [
+        [
+          510.0,
+          411.6
+        ],
+        [
+          504.8,
+          285.5
+        ],
+        [
+          379.9,
+          290.6
+        ],
+        [
+          385.0,
+          416.7
+        ]
+      ],
+      "telemetry": {
+        "sensor": "Raspberry Pi Camera (mock_simulator)",
+        "sampling_interval_s": 1.0,
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58
+      }
+    },
+    {
+      "event_id": "CAM-ALERT-0001-22",
+      "timestamp_utc": "2026-10-17T10:31:57.453909+00:00",
+      "frame_id": 1,
+      "kiln_id": "KILN-001-22",
+      "class": "CFCBK",
+      "confidence": 0.037,
+      "compliance_flag": "CRITICAL_VIOLATION",
+      "priority": 1,
+      "geographic_coords": {
+        "latitude": 21.08279,
+        "longitude": 72.94047
+      },
+      "metrics": {
+        "orientation_deg": 87.7,
+        "estimated_area_m2": 1578047.5,
+        "dimensions_m": {
+          "length": 1261.6,
+          "width": 1250.8
+        }
+      },
+      "corners": [
+        [
+          606.0,
+          411.6
+        ],
+        [
+          600.8,
+          285.5
+        ],
+        [
+          475.9,
+          290.6
+        ],
+        [
+          481.0,
+          416.7
+        ]
+      ],
+      "telemetry": {
+        "sensor": "Raspberry Pi Camera (mock_simulator)",
+        "sampling_interval_s": 1.0,
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58
+      }
+    },
+    {
+      "event_id": "CAM-ALERT-0001-23",
+      "timestamp_utc": "2026-10-17T10:31:57.453909+00:00",
+      "frame_id": 1,
+      "kiln_id": "KILN-001-23",
+      "class": "CFCBK",
+      "confidence": 0.035,
+      "compliance_flag": "CRITICAL_VIOLATION",
+      "priority": 1,
+      "geographic_coords": {
+        "latitude": 21.0674,
+        "longitude": 72.91742
+      },
+      "metrics": {
+        "orientation_deg": 87.6,
+        "estimated_area_m2": 1574070.4,
+        "dimensions_m": {
+          "length": 1259.8,
+          "width": 1249.5
+        }
+      },
+      "corners": [
+        [
+          317.8,
+          219.1
+        ],
+        [
+          312.6,
+          93.2
+        ],
+        [
+          187.8,
+          98.4
+        ],
+        [
+          193.0,
+          224.3
+        ]
+      ],
+      "telemetry": {
+        "sensor": "Raspberry Pi Camera (mock_simulator)",
+        "sampling_interval_s": 1.0,
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58
+      }
+    },
+    {
+      "event_id": "CAM-ALERT-0001-24",
+      "timestamp_utc": "2026-10-17T10:31:57.453909+00:00",
+      "frame_id": 1,
+      "kiln_id": "KILN-001-24",
       "class": "Zigzag",
-      "confidence": 0.031,
+      "confidence": 0.029,
       "compliance_flag": "COMPLIANT_ZIGZAG",
       "priority": 3,
       "geographic_coords": {
-        "latitude": 21.23189,
-        "longitude": 72.91023
+        "latitude": 21.07494,
+        "longitude": 72.92555
       },
-      "swath_coords": {
-        "x": 2223.7,
-        "y": 165.4
+      "metrics": {
+        "orientation_deg": 178.4,
+        "estimated_area_m2": 1514325.5,
+        "dimensions_m": {
+          "length": 1233.9,
+          "width": 1227.2
+        }
       },
+      "corners": [
+        [
+          417.8,
+          312.5
+        ],
+        [
+          414.4,
+          189.9
+        ],
+        [
+          291.0,
+          193.3
+        ],
+        [
+          294.5,
+          316.0
+        ]
+      ],
       "telemetry": {
+        "sensor": "Raspberry Pi Camera (mock_simulator)",
+        "sampling_interval_s": 1.0,
         "altitude_km": 504.8,
-        "ground_speed_kms": 7.58,
-        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+        "ground_speed_kms": 7.58
       }
     }
   ]
