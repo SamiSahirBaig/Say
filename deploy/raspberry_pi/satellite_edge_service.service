@@ -1,0 +1,16 @@
+[Unit]
+Description=DI-04 Chimney Census Raspberry Pi Satellite Edge AI Daemon
+After=network.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/satellite_payload
+ExecStart=/home/pi/satellite_env/bin/python raspberry_pi_satellite_edge.py --model weights/best.onnx --source /dev/video0 --out-json telemetry/downlink_telemetry.json
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

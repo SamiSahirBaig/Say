@@ -1,0 +1,41 @@
+{
+  "mAP@0.5": 0.0,
+  "per_class_ap": {
+    "FCBK": 0.0,
+    "CFCBK": 0.0,
+    "Zigzag": 0.0
+  },
+  "per_class_details": {
+    "FCBK": {
+      "ap": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "n_gt": 18,
+      "n_det": 0
+    },
+    "CFCBK": {
+      "ap": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "n_gt": 16,
+      "n_det": 0
+    },
+    "Zigzag": {
+      "ap": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "n_gt": 28,
+      "n_det": 0
+    }
+  },
+  "class_gt_counts": {
+    "FCBK": 18,
+    "CFCBK": 16,
+    "Zigzag": 28
+  },
+  "class_det_counts": {
+    "FCBK": 0,
+    "CFCBK": 0,
+    "Zigzag": 0
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "dataset_name": "SustainabilityLabIITGN/SentinelKilnDB",
+  "splits": {
+    "train": {
+      "total_tiles": 71856,
+      "audited_tiles": 200,
+      "empty_tiles": 200,
+      "tiles_with_kilns": 0,
+      "box_count": 0,
+      "class_counts": {
+        "FCBK": 0,
+        "CFCBK": 0,
+        "Zigzag": 0
+      },
+      "invalid_coords_count": 0,
+      "malformed_lines": 0,
+      "sample_image_size": [
+        128,
+        128
+      ],
+      "sample_image_mode": "RGB"
+    },
+    "validation": {
+      "total_tiles": 23952,
+      "audited_tiles": 200,
+      "empty_tiles": 190,
+      "tiles_with_kilns": 10,
+      "box_count": 15,
+      "class_counts": {
+        "FCBK": 8,
+        "CFCBK": 0,
+        "Zigzag": 7
+      },
+      "invalid_coords_count": 0,
+      "malformed_lines": 0,
+      "sample_image_size": [
+        128,
+        128
+      ],
+      "sample_image_mode": "RGB"
+    },
+    "test": {
+      "total_tiles": 18492,
+      "audited_tiles": 200,
+      "empty_tiles": 199,
+      "tiles_with_kilns": 1,
+      "box_count": 1,
+      "class_counts": {
+        "FCBK": 0,
+        "CFCBK": 1,
+        "Zigzag": 0
+      },
+      "invalid_coords_count": 0,
+      "malformed_lines": 0,
+      "sample_image_size": [
+        128,
+        128
+      ],
+      "sample_image_mode": "RGB"
+    }
+  },
+  "overall": {
+    "total_tiles": 114300,
+    "total_boxes": 16,
+    "class_distribution": {
+      "FCBK": 8,
+      "CFCBK": 1,
+      "Zigzag": 7
+    },
+    "empty_tiles": 589,
+    "tiles_with_kilns": 11,
+    "malformed_labels": 0
+  },
+  "image_spec": {
+    "width": 128,
+    "height": 128,
+    "channels": "RGB",
+    "resolution_m_per_px": 10.0
+  },
+  "license": "CC BY-NC 4.0 (Non-commercial research use)",
+  "source_citation": "SentinelKilnDB: Mondal et al., NeurIPS 2025 Datasets and Benchmarks"
+}

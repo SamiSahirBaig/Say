@@ -1,0 +1,16 @@
+torch>=2.2.0
+torchvision>=0.17.0
+ultralytics>=8.3.0
+datasets>=3.0.0
+numpy>=1.26.0
+pandas>=2.2.0
+pillow>=10.0.0
+geopandas>=1.0.0
+shapely>=2.0.0
+pyproj>=3.6.0
+matplotlib>=3.8.0
+reportlab>=4.0.0
+python-pptx>=1.0.0
+pyyaml>=6.0.0
+pytest>=8.0.0
+tqdm>=4.66.0

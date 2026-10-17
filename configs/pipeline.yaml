@@ -1,0 +1,69 @@
+# DI-04 Chimney Census Pipeline Configuration
+project_name: "DI-04 Chimney Census"
+seed: 42
+
+data:
+  dataset_name: "SustainabilityLabIITGN/SentinelKilnDB"
+  local_cache_dir: "D:/projects/kurukshetra hackathon/huggingface_cache"
+  local_readable_dir: "D:/projects/kurukshetra hackathon/SentinelKilnDB_readable"
+  yolo_data_dir: "data/yolo_dataset"
+  img_size: 128
+  pixel_resolution_m: 10.0
+  tile_overlap_px: 30
+  classes:
+    0: "CFCBK"
+    1: "FCBK"
+    2: "Zigzag"
+  name_to_id:
+    "CFCBK": 0
+    "FCBK": 1
+    "Zigzag": 2
+  target_submission_order:
+    - "FCBK"
+    - "CFCBK"
+    - "Zigzag"
+
+model:
+  name: "yolov8n-obb"
+  base_checkpoint: "weights/yolov8n-obb.pt"
+  best_checkpoint: "weights/best.pt"
+  epochs: 10
+  batch_size: 64
+  workers: 2
+  device: "0"  # CUDA device index or 'cpu'
+  mixed_precision: true
+  lr0: 0.005
+  lrf: 0.01
+  optimizer: "AdamW"
+  save_period: 1
+
+inference:
+  conf_threshold: 0.25
+  iou_threshold: 0.45
+  batch_size: 128
+  submission_csv: "outputs/submission.csv"
+
+evaluation:
+  iou_threshold: 0.5
+  eval_points: "all"  # DOTA 11-point or all-point precision-recall curve
+
+geospatial:
+  deduplication_distance_m: 50.0
+  deduplication_iou_threshold: 0.20
+  cluster_distance_m: 1000.0  # 1 km field-verification flag
+  district_name: "Demo District"
+  utm_zone: 43  # Central/North India (EPSG:32643 / WGS 84 UTM 43N)
+
+reports:
+  dataset_audit_report: "outputs/reports/dataset_audit_report.json"
+  validation_eval_report: "outputs/reports/validation_eval_report.json"
+  submission_validation_report: "outputs/reports/submission_validation_report.json"
+  geojson_path: "outputs/geojson/district_kilns.geojson"
+  map_image_path: "outputs/maps/district_kilns.png"
+  kiln_counts_csv: "outputs/reports/kiln_counts.csv"
+  possible_conversions_csv: "outputs/reports/possible_conversions.csv"
+  nearby_kilns_csv: "outputs/reports/nearby_kilns.csv"
+  inspection_priority_csv: "outputs/reports/inspection_priority_top20.csv"
+  inspectors_brief_pdf: "outputs/reports/inspectors_brief.pdf"
+  presentation_pptx: "outputs/presentation/chimney_census.pptx"
+  speaker_notes_md: "outputs/presentation/speaker_notes.md"

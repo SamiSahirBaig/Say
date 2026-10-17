@@ -1,0 +1,20 @@
+{
+  "model_name": "YOLOv8n-OBB Edge",
+  "format": "ONNX",
+  "input_shape": [
+    1,
+    3,
+    128,
+    128
+  ],
+  "output_shape": [
+    1,
+    8,
+    336
+  ],
+  "size_mb": 11.83,
+  "target_hardware": "Raspberry Pi 4 / Raspberry Pi 5 (ARM64 Cortex-A72 / A76)",
+  "cpu_latency_ms": 2.96,
+  "cpu_throughput_fps": 337.5,
+  "power_envelope_watts": "3.5 - 5.0 W (Raspberry Pi payload)"
+}

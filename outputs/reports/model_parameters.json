@@ -1,0 +1,77 @@
+{
+  "model_name": "YOLOv8n-OBB (DI-04 Chimney Census)",
+  "task": "Oriented Bounding Box Object Detection (OBB)",
+  "dataset": "SustainabilityLabIITGN/SentinelKilnDB (NeurIPS 2025)",
+  "checkpoint_weights": "weights/best.pt",
+  "base_weights": "weights/yolov8n-obb.pt",
+  "architecture": {
+    "framework": "Ultralytics YOLOv8-OBB",
+    "total_parameters": 3083100,
+    "trainable_parameters": 3083100,
+    "total_layers": 144,
+    "total_modules": 250,
+    "gflops": 8.441,
+    "backbone": "Modified CSPDarknet53 (C2f modules + Conv + SPPF)",
+    "neck": "Path Aggregation Network (PANet) Feature Pyramid (P3, P4, P5 scales)",
+    "head": "Decoupled Anchor-Free OBB Head with Distribution Focal Loss (DFL)",
+    "input_resolution": [128, 128, 3],
+    "ground_sampling_distance": "10.0 m/pixel (Sentinel-2 L2A RGB)",
+    "output_format": "Oriented Bounding Box corners [(x1,y1), (x2,y2), (x3,y3), (x4,y4)] normalized to [0, 1] + class probabilities"
+  },
+  "classes": {
+    "0": {
+      "name": "CFCBK",
+      "full_name": "Circular Fixed Chimney Bull's Trench Kiln",
+      "geometry": "Circular / Elliptical trench with central chimney",
+      "regulatory_status": "Non-compliant / Phase-out priority"
+    },
+    "1": {
+      "name": "FCBK",
+      "full_name": "Fixed Chimney Bull's Trench Kiln",
+      "geometry": "Oval / Elongated racetrack ring (~12x6 pixels)",
+      "regulatory_status": "Non-compliant / Mandated for Zigzag conversion"
+    },
+    "2": {
+      "name": "Zigzag",
+      "full_name": "Induced / Natural Draft Zigzag Kiln",
+      "geometry": "Crisp rectangular structure with internal zigzag flow",
+      "regulatory_status": "Compliant cleaner production technology"
+    }
+  },
+  "hyperparameters": {
+    "optimizer": "AdamW",
+    "initial_lr_lr0": 0.005,
+    "final_lr_factor_lrf": 0.01,
+    "lr_scheduler": "Cosine Annealing",
+    "momentum": 0.937,
+    "weight_decay": 0.0005,
+    "warmup_epochs": 3.0,
+    "warmup_momentum": 0.8,
+    "batch_size": 64,
+    "training_epochs": 10,
+    "mixed_precision": true,
+    "loss_components": {
+      "box_loss": "Complete IoU (CIoU) / Probabilistic IoU for Rotated Bounding Boxes (weight: 7.5)",
+      "cls_loss": "Binary Cross-Entropy (BCE) with class balancing (weight: 0.5)",
+      "dfl_loss": "Distribution Focal Loss for sub-pixel boundary/angle regression (weight: 1.5)"
+    },
+    "augmentations": {
+      "hsv_h": 0.015,
+      "hsv_s": 0.7,
+      "hsv_v": 0.4,
+      "degrees": 180.0,
+      "translate": 0.1,
+      "scale": 0.5,
+      "fliplr": 0.5,
+      "flipud": 0.5,
+      "mosaic": 0.0
+    }
+  },
+  "runtime_performance": {
+    "hardware": "NVIDIA GeForce RTX 3050 Laptop GPU (6GB VRAM)",
+    "cuda_version": "12.4",
+    "inference_latency_per_tile_ms": 2.2,
+    "inference_throughput_fps": 454.5,
+    "memory_footprint_mb": 11.8
+  }
+}

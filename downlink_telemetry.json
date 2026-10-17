@@ -1,0 +1,31 @@
+{
+  "satellite_id": "CHIMNEY-CENSUS-CUBESAT-01",
+  "processor": "Raspberry Pi 5 Edge AI Payload (ONNX Opset 18)",
+  "total_alerts": 1,
+  "generated_at": "2026-10-16T22:10:54.170315+00:00",
+  "alerts": [
+    {
+      "event_id": "SAT-ALERT-0001",
+      "timestamp_utc": "2026-10-16T22:10:54.163829+00:00",
+      "frame_id": 0,
+      "kiln_id": 1,
+      "class": "Zigzag",
+      "confidence": 0.027,
+      "compliance_flag": "COMPLIANT_ZIGZAG",
+      "priority": 3,
+      "geographic_coords": {
+        "latitude": 21.05961,
+        "longitude": 72.90171
+      },
+      "swath_coords": {
+        "x": 70.1,
+        "y": 58.9
+      },
+      "telemetry": {
+        "altitude_km": 504.8,
+        "ground_speed_kms": 7.58,
+        "sensor": "Sentinel-2 MSI Equivalent 10m/px GSD"
+      }
+    }
+  ]
+}

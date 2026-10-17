@@ -1,0 +1,10 @@
+{
+  "base_model": "weights/yolov8n-obb.pt",
+  "epochs": 1,
+  "imgsz": 128,
+  "batch_size": 32,
+  "device": "0",
+  "best_checkpoint": "weights/best.pt",
+  "metrics/mAP50(B)": 0.0,
+  "metrics/mAP50-95(B)": 0.0
+}

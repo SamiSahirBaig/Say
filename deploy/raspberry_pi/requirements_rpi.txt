@@ -1,0 +1,6 @@
+# Lightweight Edge Requirements for Raspberry Pi 4 / 5 (ARM64)
+# No heavy PyTorch or CUDA required!
+onnxruntime>=1.18.0
+opencv-python-headless>=4.8.0
+numpy>=1.24.0
+shapely>=2.0.0

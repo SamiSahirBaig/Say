@@ -1,0 +1,17 @@
+# Python & IDE caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.vscode/
+.idea/
+
+# Large local caches
+data/yolo_dataset/
+runs/
+*.cache
+
+# Keep weights and outputs tracked
+!weights/README.md
+!weights/*.pt
+!outputs/

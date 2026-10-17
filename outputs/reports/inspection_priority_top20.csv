@@ -1,0 +1,21 @@
+rank,kiln_id,predicted_class,confidence,longitude,latitude,priority_score,neighbors_within_1km,historical_status,primary_inspection_reason
+1,KILN_0033,FCBK,0.88,87.005803,21.70663,0.822,3,Standard operating site,High regulatory scrutiny: Persisting older FCBK design under conversion mandate. | High-efficiency route: Part of a 4-kiln cluster within 1 km.
+2,KILN_0057,CFCBK,0.88,88.005722,22.948236,0.752,7,Standard operating site,Rare circular FCBK design: Check compliance and operating status. | High-efficiency route: Part of a 8-kiln cluster within 1 km.
+3,KILN_0050,CFCBK,0.88,88.005601,22.945913,0.752,8,Standard operating site,Rare circular FCBK design: Check compliance and operating status. | High-efficiency route: Part of a 9-kiln cluster within 1 km.
+4,KILN_0044,CFCBK,0.88,88.007391,22.829287,0.752,3,Standard operating site,Rare circular FCBK design: Check compliance and operating status. | High-efficiency route: Part of a 4-kiln cluster within 1 km.
+5,KILN_0054,CFCBK,0.88,88.004497,22.942227,0.752,8,Standard operating site,Rare circular FCBK design: Check compliance and operating status. | High-efficiency route: Part of a 9-kiln cluster within 1 km.
+6,KILN_0055,CFCBK,0.88,88.001791,22.944913,0.752,7,Standard operating site,Rare circular FCBK design: Check compliance and operating status. | High-efficiency route: Part of a 8-kiln cluster within 1 km.
+7,KILN_0052,CFCBK,0.88,88.001923,22.945913,0.752,7,Standard operating site,Rare circular FCBK design: Check compliance and operating status. | High-efficiency route: Part of a 8-kiln cluster within 1 km.
+8,KILN_0023,FCBK,0.88,92.002834,21.290933,0.722,2,Standard operating site,High regulatory scrutiny: Persisting older FCBK design under conversion mandate. | High-efficiency route: Part of a 3-kiln cluster within 1 km.
+9,KILN_0006,FCBK,0.88,72.003651,21.05012,0.722,2,Standard operating site,High regulatory scrutiny: Persisting older FCBK design under conversion mandate. | High-efficiency route: Part of a 3-kiln cluster within 1 km.
+10,KILN_0007,FCBK,0.88,72.004495,21.052087,0.722,2,Standard operating site,High regulatory scrutiny: Persisting older FCBK design under conversion mandate. | High-efficiency route: Part of a 3-kiln cluster within 1 km.
+11,KILN_0008,FCBK,0.88,72.008215,21.055311,0.722,2,Standard operating site,High regulatory scrutiny: Persisting older FCBK design under conversion mandate. | High-efficiency route: Part of a 3-kiln cluster within 1 km.
+12,KILN_0016,FCBK,0.88,73.011423,21.152412,0.722,2,Standard operating site,High regulatory scrutiny: Persisting older FCBK design under conversion mandate. | High-efficiency route: Part of a 3-kiln cluster within 1 km.
+13,KILN_0015,FCBK,0.88,73.007223,21.15142,0.722,2,Standard operating site,High regulatory scrutiny: Persisting older FCBK design under conversion mandate. | High-efficiency route: Part of a 3-kiln cluster within 1 km.
+14,KILN_0034,FCBK,0.88,87.00216,21.710438,0.722,2,Standard operating site,High regulatory scrutiny: Persisting older FCBK design under conversion mandate. | High-efficiency route: Part of a 3-kiln cluster within 1 km.
+15,KILN_0017,FCBK,0.88,73.002057,21.152412,0.722,2,Standard operating site,High regulatory scrutiny: Persisting older FCBK design under conversion mandate. | High-efficiency route: Part of a 3-kiln cluster within 1 km.
+16,KILN_0061,FCBK,0.88,72.001521,22.990581,0.722,2,Standard operating site,High regulatory scrutiny: Persisting older FCBK design under conversion mandate. | High-efficiency route: Part of a 3-kiln cluster within 1 km.
+17,KILN_0059,CFCBK,0.88,72.005916,22.98867,0.652,2,Standard operating site,Rare circular FCBK design: Check compliance and operating status. | High-efficiency route: Part of a 3-kiln cluster within 1 km.
+18,KILN_0040,CFCBK,0.88,88.006572,22.743286,0.652,2,Standard operating site,Rare circular FCBK design: Check compliance and operating status. | High-efficiency route: Part of a 3-kiln cluster within 1 km.
+19,KILN_0060,CFCBK,0.88,72.007581,22.990248,0.652,2,Standard operating site,Rare circular FCBK design: Check compliance and operating status. | High-efficiency route: Part of a 3-kiln cluster within 1 km.
+20,KILN_0018,FCBK,0.88,92.0084,21.231593,0.622,1,Standard operating site,High regulatory scrutiny: Persisting older FCBK design under conversion mandate. | Nearby pair: 1 other kiln within 1 km.

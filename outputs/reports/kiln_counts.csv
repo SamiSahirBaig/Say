@@ -1,0 +1,4 @@
+class,distinct_predicted_count,lower_bound_ci,upper_bound_ci,estimated_actual,model_precision,model_recall,uncertainty_basis
+FCBK,18,14,23,19,0.82,0.79,Empirical validation precision-recall bounds; not ground-truth verified.
+CFCBK,16,10,28,18,0.65,0.58,Empirical validation precision-recall bounds; not ground-truth verified.
+Zigzag,27,22,34,28,0.85,0.81,Empirical validation precision-recall bounds; not ground-truth verified.

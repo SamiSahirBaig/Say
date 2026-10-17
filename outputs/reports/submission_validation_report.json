@@ -1,0 +1,6 @@
+{
+  "is_valid": true,
+  "total_detections": 0,
+  "errors": [],
+  "warning": "Submission file has 0 detections (empty dataset or high threshold)."
+}
