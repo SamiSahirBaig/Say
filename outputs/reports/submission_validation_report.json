@@ -1,6 +1,11 @@
 {
   "is_valid": true,
-  "total_detections": 0,
-  "errors": [],
-  "warning": "Submission file has 0 detections (empty dataset or high threshold)."
+  "total_detections": 131,
+  "unique_tiles_with_detections": 83,
+  "class_counts": {
+    "Zigzag": 109,
+    "CFCBK": 20,
+    "FCBK": 2
+  },
+  "errors": []
 }
